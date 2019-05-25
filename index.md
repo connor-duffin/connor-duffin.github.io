@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 title: About
 use_site_title_in_head: true
 layout: home
@@ -16,5 +13,5 @@ My Ph.D. is on quantifying, understanding, and explaining uncertainties in
 soliton models.
 
 My research interests lie in between computational statistics and applied
-Mathematics. I am particularly interested in Bayesian methods and computation,
+mathematics. I am particularly interested in Bayesian methods and computation,
 probabilistic numerics, and uncertainty quantification.

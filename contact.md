@@ -13,4 +13,4 @@ Perth, 6000, <br />
 Australia.
 
 ### E-mail
-connor (.) p (.) duffin (@) gmail (.) com
+connor.p.duffin@gmail.com
