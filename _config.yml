@@ -16,10 +16,10 @@
 title: Connor Duffin
 email: connor.p.duffin@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Ph.D. student at UWA.
+  PhD student at UWA.
 baseurl: ""
 url: ""
-github_username:  connorpduffin
+github_username:  connor-duffin
 
 # Build settings
 markdown: kramdown

@@ -1,17 +1,14 @@
 ---
-title: About
-use_site_title_in_head: true
 layout: home
+use_site_title_in_head: true
+title: about
 ---
 
-I am a Ph.D. student in the Department of Mathematics and Statistics at the 
-Univesity of Western Australia. I am supervised by 
+I am a PhD student in computational statistics and applied mathematics at the
+University of Western Australia. I am supervised by 
 [Edward Cripps](https://research-repository.uwa.edu.au/en/persons/edward-cripps),
 [Thomas Stemler](https://research-repository.uwa.edu.au/en/persons/thomas-stemler), and
-[Mark Girolami](https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/girolami/).
-My Ph.D. is on quantifying, understanding, and explaining uncertainties in
-soliton models.
+[Mark Girolami](https://prof-girolami.uk). My PhD is on developing statistical
+methodology to deal with uncertainty in numerical models. 
 
-My research interests lie in between computational statistics and applied
-mathematics. I am particularly interested in Bayesian methods and computation,
-probabilistic numerics, and uncertainty quantification.
+![me](images/connor.jpg)
