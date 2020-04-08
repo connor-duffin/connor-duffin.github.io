@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: default
 title: research
 permalink: /research/
 ---
+
+# research
 
 I am currently working on applying the statistical finite element method to
 handle nonlinearity and time-dependence in an internal wave model. Paper and
