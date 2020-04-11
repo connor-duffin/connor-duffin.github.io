@@ -15,3 +15,7 @@ at UWA). I worked on modelling rainfall with MCMC, under
 [Edward Cripps](https://research-repository.uwa.edu.au/en/persons/edward-cripps)
 and [Michael Bertolacci](https://mbertolacci.github.io). Publication currently
 under preparation.
+
+My research interests include Bayesian Uncertainty Quantification/Inverse
+Problems, Bayesian analysis of differential equations, and Markov chain Monte
+Carlo methods.
