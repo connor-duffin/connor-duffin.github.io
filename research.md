@@ -21,7 +21,7 @@ My research interests include Bayesian Uncertainty Quantification/Inverse
 Problems, Bayesian analysis of differential equations, and Markov chain Monte
 Carlo methods.
 
-## Publications
+## publications
 
 Statistical finite elements for misspecified models, *Connor Duffin, Edward
 Cripps, Thomas Stemler, and Mark Girolami*, Proceedings of the National Academy
