@@ -25,4 +25,4 @@ Carlo methods.
 
 Statistical finite elements for misspecified models,
 *Connor Duffin, Edward Cripps, Thomas Stemler, and Mark Girolami*,
-Proceedings of the National Academy of Sciences Jan 2021, 118 (2); DOI: [10.1073/pnas.2015006118](10.1073/pnas.2015006118).
+Proceedings of the National Academy of Sciences Jan 2021, 118 (2); DOI: [10.1073/pnas.2015006118](https://doi.org/10.1073/pnas.2015006118).
