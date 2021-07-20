@@ -12,10 +12,10 @@ by the KdV equation. This is published
 [here](https://www.pnas.org/content/118/2/e2015006118), and the code is
 available [here](https://www.github.com/connor-duffin/statkdv-paper).
 
-Prior to starting my PhD, I did an honours degree in computational statistics (also
-at UWA). I worked on modelling rainfall with MCMC, under
-[Edward Cripps](https://research-repository.uwa.edu.au/en/persons/edward-cripps)
-and [Michael Bertolacci](https://mbertolacci.github.io).
+Prior to starting my PhD, I did an honours degree (similar to a UK Bachelor +
+MRes) in computational statistics (also at UWA). I worked on modelling rainfall
+with MCMC, under [Edward Cripps](https://research-repository.uwa.edu.au/en/persons/edward-cripps) and
+[Michael Bertolacci](https://mbertolacci.github.io).
 
 My research interests include Bayesian Uncertainty Quantification/Inverse
 Problems, Bayesian analysis of differential equations, and Markov chain Monte
