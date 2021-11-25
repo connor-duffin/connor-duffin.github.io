@@ -23,6 +23,14 @@ Carlo methods.
 
 ## publications
 
+Statistical Finite Elements via Langevin Dynamics. 
+*O. Deniz Akyildiz, Connor Duffin, Sotirios Sabanis, and Mark Girolami* (2021). 
+ArXiv:2110.11131 [Cs, Math, Stat]. [(arXiv link)](http://arxiv.org/abs/2110.11131)
+
+Low-rank statistical finite elements for scalable model-data synthesis. 
+*Connor Duffin, Edward Cripps, Thomas Stemler, and Mark Girolami* (2021). 
+ArXiv:2109.04757 [Cs, Math, Stat]. [(arXiv link)](http://arxiv.org/abs/2109.04757)
+
 Statistical finite elements for misspecified models,
 *Connor Duffin, Edward Cripps, Thomas Stemler, and Mark Girolami*,
 Proceedings of the National Academy of Sciences Jan 2021, 118 (2); DOI: [10.1073/pnas.2015006118](https://doi.org/10.1073/pnas.2015006118).
