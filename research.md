@@ -6,11 +6,16 @@ permalink: /research/
 
 # research
 
-I am currently working on applying the statistical finite element method to
-handle nonlinearity and time-dependence, as applied to internal waves modelled
-by the KdV equation. This is published
+My current research is on blending PDE systems with observed data via Bayesian
+statistical methods. My PhD has focused on applying the statistical finite
+element method to handle nonlinearity and time-dependence. The first work,
+establishing the methodology, is published
 [here](https://www.pnas.org/content/118/2/e2015006118), and the code is
-available [here](https://www.github.com/connor-duffin/statkdv-paper).
+available [here](https://www.github.com/connor-duffin/statkdv-paper). We hav
+extended this work to scale to high-dimensional systems, as motivated by
+reaction-diffusion problems. A pre-print is available
+[here](http://arxiv.org/abs/2109.04757), and the code is available
+[here](https://github.com/connor-duffin/low-rank-statfem).
 
 Prior to starting my PhD, I did an honours degree (similar to a UK Bachelor +
 MRes) in computational statistics (also at UWA). I worked on modelling rainfall
@@ -28,8 +33,8 @@ Statistical Finite Elements via Langevin Dynamics.
 ArXiv:2110.11131 [Cs, Math, Stat]. [(arXiv link)](http://arxiv.org/abs/2110.11131)
 
 Low-rank statistical finite elements for scalable model-data synthesis. 
-*Connor Duffin, Edward Cripps, Thomas Stemler, and Mark Girolami* (2021). 
-ArXiv:2109.04757 [Cs, Math, Stat]. [(arXiv link)](http://arxiv.org/abs/2109.04757)
+*Connor Duffin, Edward Cripps, Thomas Stemler, and Mark Girolami* (2022). 
+Journal of Computational Physics (forthcoming). [(arXiv link)](http://arxiv.org/abs/2109.04757)
 
 Statistical finite elements for misspecified models,
 *Connor Duffin, Edward Cripps, Thomas Stemler, and Mark Girolami*,
