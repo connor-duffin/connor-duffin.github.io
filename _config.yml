@@ -20,7 +20,33 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: ""
 github_username:  connor-duffin
-twitter: cpduffin
+twitter_username: cpduffin
+
+# github_username: # your GitHub user name
+# gitlab_username: # your GitLab user name
+# twitter_username: # your Twitter handle
+# linkedin_username: # your LinkedIn user name
+# scholar_userid: # your Google Scholar ID
+# semanticscholar_id: # your Semantic Scholar ID
+# orcid_id: # your ORCID ID
+# medium_username: # your Medium username
+# quora_username: # your Quora username
+# publons_id: # your ID on Publons
+# research_gate_profile: # your profile on ResearchGate
+# blogger_url: # your blogger URL
+# work_url: # work page URL
+# keybase_username: # your keybase user name
+# wikidata_id: # your wikidata id
+# dblp_url: # your DBLP profile url
+# stackoverflow_id: # your stackoverflow id
+# kaggle_id: # your kaggle id
+# lastfm_id: # your lastfm id
+# spotify_id: # your spotify id
+# pinterest_id: # your pinterest id
+# unsplash_id: # your unsplash id
+# instagram_id: # your instagram id
+# facebook_id: # your facebook id
+# discord_id: # your discord id (18-digit unique numerical identifier)
 
 # Build settings
 markdown: kramdown
