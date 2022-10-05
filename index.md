@@ -20,4 +20,6 @@ elements.
 
 See [here](/research/) for more info on my research.
 
+Outside of work I like music and climbing rocks :)
+
 ![me](images/connor.jpg)
