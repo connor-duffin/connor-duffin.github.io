@@ -2,6 +2,7 @@
 layout: home
 # use_site_title_in_head: true
 title: about
+order: 1
 ---
 
 I am a Research Associate (postdoc) in the Department of Engineering

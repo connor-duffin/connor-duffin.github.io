@@ -2,6 +2,7 @@
 layout: default
 title: research
 permalink: /research/
+order: 2
 ---
 
 # research
