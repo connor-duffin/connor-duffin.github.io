@@ -38,7 +38,7 @@ Akyildiz, Ö.D., Duffin, C., Sabanis, S., Girolami, M., 2022. Statistical Finite
 
 Duffin, C., Cripps, E., Stemler, T., Girolami, M., 2022. Low-rank statistical finite elements for scalable model-data synthesis. Journal of Computational Physics 463. [(link)](https://doi.org/10.1016/j.jcp.2022.111261)
 
-Duffin, C., Cripps, E., Stemler, T., Girolami, M., 2021. Statistical finite elements for misspecified models. PNAS 118. ([(link)](https://doi.org/10.1073/pnas.2015006118)
+Duffin, C., Cripps, E., Stemler, T., Girolami, M., 2021. Statistical finite elements for misspecified models. PNAS 118. [(link)](https://doi.org/10.1073/pnas.2015006118)
 
 ## theses
 
