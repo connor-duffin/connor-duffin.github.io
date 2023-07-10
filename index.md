@@ -20,6 +20,7 @@ Stemler](https://research-repository.uwa.edu.au/en/persons/thomas-stemler),
 where I worked on model-data synthesis for nonlinear PDEs modelled by finite
 elements.
 
-See [here](/research/) for more info on my research.
+I'm in the process of moving to a self-hosted, [new website](https://www.connorduffin.com). As such this one will be
+taken down soon(ish...)
 
 ![me](images/connor.jpg)
