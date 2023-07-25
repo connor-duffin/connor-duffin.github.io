@@ -1,0 +1,8 @@
+---
+title: "code"
+---
+
+I try to put most of my code online when I think that it is of general utility. I've tried to summarise these works here:
+
+* [statfenics](https://github.com/connor-duffin/statfenics): a set of tools to help when doing statistical things with [FEniCS](https://fenicsproject.org/). Includes functions to build Gaussian process inference on top of FEniCS, and utilities to aid in interpolating finite element solutions.
+* [ula-statfem](https://github.com/connor-duffin/ula-statfem): code to explore Langevin dynamics samplers with [statFEM](https://doi.org/10.1073/pnas.2015006118). Published in [SIAM JUQ](https://doi.org/10.1137/21M1463094). Includes [sfmcmc](https://github.com/connor-duffin/ula-statfem/tree/main/sfmcmc) package which implements a bunch of different MCMC samplers.

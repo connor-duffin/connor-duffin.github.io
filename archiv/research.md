@@ -1,0 +1,49 @@
+---
+layout: default
+title: research
+permalink: /research/
+order: 2
+---
+
+# research
+
+My current research is on blending physical systems with observed data via Bayesian
+statistical methods. My PhD focused on extending the statistical finite
+element method (*statFEM*) to handle nonlinearity and time-dependence. The first
+work, establishing the methodology, was published
+[here](https://www.pnas.org/content/118/2/e2015006118), and the code is
+available [here](https://www.github.com/connor-duffin/statkdv-paper). We have
+extended this work to scale to high-dimensional systems, as motivated by
+reaction-diffusion problems. This was published in the Journal of Computational
+Physics [here](https://doi.org/10.1016/j.jcp.2022.111261), and the code is
+available [here](https://github.com/connor-duffin/low-rank-statfem). We've done
+some further work on looking at Langevin samplers for statFEM --- see
+[here](https://doi.org/10.1137/21M1463094) for the paper, and
+[here](https://github.com/connor-duffin/ula-statfem) for the code.
+
+Prior to starting my PhD, I did my Bachelors and Honours in
+Computational Statistics (also at UWA). I worked on modelling rainfall
+with MCMC, under [Edward
+Cripps](https://research-repository.uwa.edu.au/en/persons/edward-cripps)
+and [Michael Bertolacci](https://mbertolacci.github.io).
+
+My research interests include Bayesian Uncertainty Quantification/Inverse
+problems, Bayesian analysis of differential equations, and Markov chain Monte
+Carlo methods.
+
+## publications
+
+Glyn-Davies, A., Duffin, C., Akyildiz, Ö.D., Girolami, M., 2022. Phi-DVAE: Learning Physically Interpretable Representations with Nonlinear Filtering (preprint). [(arXiv link)](https://doi.org/10.48550/arXiv.2209.15609).
+
+Akyildiz, Ö.D., Duffin, C., Sabanis, S., Girolami, M., 2022. Statistical Finite Elements via Langevin Dynamics. SIAM/ASA Journal on Uncertainty Quantification. [(link)](https://doi.org/10.1137/21M1463094)
+
+Duffin, C., Cripps, E., Stemler, T., Girolami, M., 2022. Low-rank statistical finite elements for scalable model-data synthesis. Journal of Computational Physics 463. [(link)](https://doi.org/10.1016/j.jcp.2022.111261)
+
+Duffin, C., Cripps, E., Stemler, T., Girolami, M., 2021. Statistical finite elements for misspecified models. PNAS 118. [(link)](https://doi.org/10.1073/pnas.2015006118)
+
+## theses
+
+Statistical finite element methods for nonlinear PDEs. Connor Duffin, May 2022, *PhD thesis, The University of Western Australia*. Available from [(here)](/assets/connor-phd-thesis-website.pdf) and also from [UWA](https://doi.org/10.26182/ztm5-0z90).
+
+Modelling Australian daily rainfall with Bayesian mixture models. Connor Duffin, December 2018, *Honours thesis, The University of Western Australia* (available upon request).
+

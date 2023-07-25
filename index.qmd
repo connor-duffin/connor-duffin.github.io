@@ -1,0 +1,22 @@
+---
+title: "Connor Duffin"
+image: images/conpressed.jpg
+about: 
+  template: solana
+  image-width: 15em
+  links:
+    - icon: envelope
+      text: email
+      href: mailto:cpd32@cam.ac.uk
+    - icon: github
+      text: Github
+      href: https://github.com/connor-duffin
+    - text: google scholar
+      href: https://scholar.google.com/citations?user=vcinYsEAAAAJ&hl=en
+---
+
+I am a Research Associate (postdoc) in the Department of Engineering at the University of Cambridge, working on multiscale modelling with [Prof. Mark Girolami](https://prof-girolami.uk), on the PREMIERE grant. I am also affiliated with Mark's [Computational Statistics and Machine Learning (CSML) group](https://csml-cam.github.io) at the University of Cambridge.
+
+Previously, I was a PhD student in computational statistics and applied mathematics at the University of Western Australia, supervised by [Edward Cripps](https://research-repository.uwa.edu.au/en/persons/edward-cripps) and [Thomas Stemler](https://research-repository.uwa.edu.au/en/persons/thomas-stemler), where I worked on model-data synthesis for nonlinear PDEs modelled by finite elements.
+
+See [here](/about.qmd) for more info on my research.
