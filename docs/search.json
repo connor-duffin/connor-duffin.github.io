@@ -1,51 +1,16 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "about",
+    "objectID": "code.html",
+    "href": "code.html",
+    "title": "code",
     "section": "",
-    "text": "My current research is on blending physical systems with observed data via Bayesian statistical methods. My PhD focused on extending the statistical finite element method (statFEM) to handle nonlinearity and time-dependence. The first work, establishing the methodology, was published here, and the code is available here. We have extended this work to scale to high-dimensional systems, as motivated by reaction-diffusion problems. This was published in the Journal of Computational Physics here, and the code is available here. We’ve done some further work on looking at Langevin samplers for statFEM — see here for the paper, and here for the code.\nPrior to starting my PhD, I did my Bachelors and Honours in Computational Statistics (also at UWA). I worked on modelling rainfall with MCMC, under Edward Cripps and Michael Bertolacci.\nMy research interests include Bayesian Uncertainty Quantification/Inverse problems, Bayesian analysis of differential equations, and Markov chain Monte Carlo methods.\n\n\nDuffin, C., Branson, P., Rayson, M., Girolami, M., Cripps, E., Stemler, T., 2023. Exploring Model Misspecification in Statistical Finite Elements via Shallow Water Equations (preprint). (arXiv link) (code).\nGlyn-Davies, A., Duffin, C., Akyildiz, Ö.D., Girolami, M., 2022. \\(\\Phi\\)-DVAE: Learning Physically Interpretable Representations with Nonlinear Filtering (preprint). (arXiv link).\nAkyildiz, Ö.D.\\(^*\\), Duffin, C.\\(^*\\), Sabanis, S., Girolami, M., 2022. Statistical Finite Elements via Langevin Dynamics. SIAM/ASA Journal on Uncertainty Quantification. (link) (code) (\\(^*\\)joint first authors).\nDuffin, C., Cripps, E., Stemler, T., Girolami, M., 2022. Low-rank statistical finite elements for scalable model-data synthesis. Journal of Computational Physics 463. (link) (code).\nDuffin, C., Cripps, E., Stemler, T., Girolami, M., 2021. Statistical finite elements for misspecified models. PNAS 118. (link) (code) (UWA media release) (Cambridge media release).\n\n\n\nStatistical finite element methods for nonlinear PDEs. Connor Duffin, May 2022, PhD thesis, The University of Western Australia. Available from (here) and also from UWA.\nModelling Australian daily rainfall with Bayesian mixture models. Connor Duffin, December 2018, Honours thesis, The University of Western Australia (available upon request)."
-  },
-  {
-    "objectID": "about.html#publications",
-    "href": "about.html#publications",
-    "title": "about",
-    "section": "",
-    "text": "Duffin, C., Branson, P., Rayson, M., Girolami, M., Cripps, E., Stemler, T., 2023. Exploring Model Misspecification in Statistical Finite Elements via Shallow Water Equations (preprint). (arXiv link) (code).\nGlyn-Davies, A., Duffin, C., Akyildiz, Ö.D., Girolami, M., 2022. \\(\\Phi\\)-DVAE: Learning Physically Interpretable Representations with Nonlinear Filtering (preprint). (arXiv link).\nAkyildiz, Ö.D.\\(^*\\), Duffin, C.\\(^*\\), Sabanis, S., Girolami, M., 2022. Statistical Finite Elements via Langevin Dynamics. SIAM/ASA Journal on Uncertainty Quantification. (link) (code) (\\(^*\\)joint first authors).\nDuffin, C., Cripps, E., Stemler, T., Girolami, M., 2022. Low-rank statistical finite elements for scalable model-data synthesis. Journal of Computational Physics 463. (link) (code).\nDuffin, C., Cripps, E., Stemler, T., Girolami, M., 2021. Statistical finite elements for misspecified models. PNAS 118. (link) (code) (UWA media release) (Cambridge media release)."
-  },
-  {
-    "objectID": "about.html#theses",
-    "href": "about.html#theses",
-    "title": "about",
-    "section": "",
-    "text": "Statistical finite element methods for nonlinear PDEs. Connor Duffin, May 2022, PhD thesis, The University of Western Australia. Available from (here) and also from UWA.\nModelling Australian daily rainfall with Bayesian mixture models. Connor Duffin, December 2018, Honours thesis, The University of Western Australia (available upon request)."
+    "text": "I try to put most of my code online when I think that it is of general utility. I’ve tried to summarise these works here:\n\nstatfenics: a set of tools to help when doing statistical things with FEniCS. Includes functions to build Gaussian process inference on top of FEniCS, and utilities to aid in interpolating finite element solutions. This is being actively developed.\nFor our statFEM filtering work there are code to accompany these papers. For the 1D case (including the internal wave experimental data) this is housed at statkdv-paper, and in the 2D case, this is housed at low-rank-statfem. In essence, these repos contain various examples, which are implemented with FEniCS, to do synthetic and experimental data experiments, computing statFEM posteriors.\nula-statfem: code to explore Langevin dynamics samplers with statFEM. Published in SIAM JUQ. Includes sfmcmc package which implements a bunch of different MCMC samplers, including ULA (see this classic paper), MALA, and preconditioned Crank-Nicolson."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Connor Duffin",
     "section": "",
-    "text": "I am a Research Associate (postdoc) in the Department of Engineering at the University of Cambridge, working on multiscale modelling with Prof. Mark Girolami, on the PREMIERE grant. I am also affiliated with Mark’s Computational Statistics and Machine Learning (CSML) group at the University of Cambridge.\nPreviously, I was a PhD student in computational statistics and applied mathematics at the University of Western Australia, supervised by Edward Cripps and Thomas Stemler, where I worked on model-data synthesis for nonlinear PDEs modelled by finite elements.\nSee here for more info on my research."
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "research",
-    "section": "",
-    "text": "Here are some summaries of my research work."
-  },
-  {
-    "objectID": "research.html#statfem-for-nonlinear-problems",
-    "href": "research.html#statfem-for-nonlinear-problems",
-    "title": "research",
-    "section": "statFEM for nonlinear problems",
-    "text": "statFEM for nonlinear problems\nThe statFEM is a methodology to synthesise finite element models with data. Our work extended this to nonlinear, time-dependent PDEs, with low-rank covariances for scalable computation (see here and here). We take a nonlinear, time-dependent PDE:\n\\[\nu_t + \\mathcal{L} u + \\mathcal{F}(u) = \\xi,\n\\]\n\\(u := u(x, t)\\), \\(x \\in \\mathcal{D} \\subseteq \\mathbb{R}^d\\), \\(t \\in [0, T]\\), and embed a Gaussian process \\(\\xi \\sim \\mathcal{GP}(0, \\delta(t - t') \\cdot k(x, x'))\\) inside of PDE, to capture structural model imperfection.\nIf we discretise the above then we can write out a transition density \\(p(u_h^n | u_h^{n - 1}) = \\mathcal{N}(\\mathcal{M}(u_h^{n - 1}), G)\\), where \\(u_h^n\\) is our finite element discretised solution, at time \\(n\\Delta t\\). Combining with an observation model allows for general nonlinear filtering. If we have a linear Gaussian observation model then we get something like:\n\\[\n\\begin{aligned}\n  p(u_h^n | u_h^{n - 1}) &= \\mathcal{N}(\\mathcal{M}(u_h^{n - 1}), G), \\\\\n  p(y_n | u_h^{n - 1}) &= \\mathcal{N}(H(u_h^n), \\sigma_n^2 I).\n\\end{aligned}\n\\]\nThis permits the usual nonlinear filtering (like the ensemble Kalman filter or the extended Kalman filter), which computes the posterior \\(p(u_h^n | y_{1:n})\\).\n\n\n\nWe tested these methods on a bunch of different PDEs: the above is from a case study where we assimilated experimental data with a statFEM Korteweg-de Vries equation."
-  },
-  {
-    "objectID": "code.html",
-    "href": "code.html",
-    "title": "code",
-    "section": "",
-    "text": "I try to put most of my code online when I think that it is of general utility. I’ve tried to summarise these works here:\n\nstatfenics: a set of tools to help when doing statistical things with FEniCS. Includes functions to build Gaussian process inference on top of FEniCS, and utilities to aid in interpolating finite element solutions. This is being actively developed.\nFor our statFEM filtering work there are code to accompany these papers. For the 1D case (including the internal wave experimental data) this is housed at statkdv-paper, and in the 2D case, this is housed at low-rank-statfem. In essence, these repos contain various examples, which are implemented with FEniCS, to do synthetic and experimental data experiments, computing statFEM posteriors.\nula-statfem: code to explore Langevin dynamics samplers with statFEM. Published in SIAM JUQ. Includes sfmcmc package which implements a bunch of different MCMC samplers, including ULA (see this classic paper), MALA, and preconditioned Crank-Nicolson."
+    "text": "I am a Research Software Engineer in the Biodiversity Futures Lab at the Natural History Museum in London. I work on writing code to model Biodiversity change - the so-called Biodiversity Intactness Index.\nBefore that, I was Postdoc in the Department of Engineering at the University of Cambridge, working with Prof. Mark Girolami. Even before that, I was a PhD student in computational statistics and applied mathematics at the University of Western Australia, supervised by Edward Cripps and Thomas Stemler, where I worked on model-data synthesis for nonlinear partial differential equations (PDEs)."
   }
 ]

@@ -11,12 +11,12 @@ about:
     - icon: github
       text: Github
       href: https://github.com/connor-duffin
+    - text: LinkedIn
+      href: www.linkedin.com/in/connor-duffin-5824452b9
     - text: google scholar
       href: https://scholar.google.com/citations?user=vcinYsEAAAAJ&hl=en
 ---
 
-I am a Research Associate (postdoc) in the Department of Engineering at the University of Cambridge, working on multiscale modelling with [Prof. Mark Girolami](https://prof-girolami.uk), on the PREMIERE grant. I am also affiliated with Mark's [Computational Statistics and Machine Learning (CSML) group](https://csml-cam.github.io) at the University of Cambridge.
+I am a Research Software Engineer in the [Biodiversity Futures Lab](https://www.nhm.ac.uk/our-science/research/projects/predicts.html) at the [Natural History Museum](https://www.nhm.ac.uk/) in London. I work on writing code to model Biodiversity change - the so-called [Biodiversity Intactness Index](https://www.nhm.ac.uk/our-science/services/data/biodiversity-intactness-index.html).
 
-Previously, I was a PhD student in computational statistics and applied mathematics at the University of Western Australia, supervised by [Edward Cripps](https://research-repository.uwa.edu.au/en/persons/edward-cripps) and [Thomas Stemler](https://research-repository.uwa.edu.au/en/persons/thomas-stemler), where I worked on model-data synthesis for nonlinear PDEs modelled by finite elements.
-
-See [here](/about.qmd) for more info on my research.
+Before that, I was Postdoc in the Department of Engineering at the University of Cambridge, working with [Prof. Mark Girolami](https://scholar.google.co.uk/citations?hl=en&user=BSoawXwAAAAJ&view_op=list_works). Even before that, I was a PhD student in computational statistics and applied mathematics at the University of Western Australia, supervised by [Edward Cripps](https://research-repository.uwa.edu.au/en/persons/edward-cripps) and [Thomas Stemler](https://research-repository.uwa.edu.au/en/persons/thomas-stemler), where I worked on model-data synthesis for nonlinear partial differential equations (PDEs).
