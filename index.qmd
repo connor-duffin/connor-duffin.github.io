@@ -7,7 +7,7 @@ about:
   links:
     - icon: envelope
       text: email
-      href: mailto:cpd32@cam.ac.uk
+      href: mailto:connor.duffin@nhm.ac.uk
     - icon: github
       text: Github
       href: https://github.com/connor-duffin
