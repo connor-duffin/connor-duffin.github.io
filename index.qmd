@@ -12,7 +12,7 @@ about:
       text: Github
       href: https://github.com/connor-duffin
     - text: LinkedIn
-      href: www.linkedin.com/in/connor-duffin-5824452b9
+      href: https://www.linkedin.com/in/connor-duffin-5824452b9
     - text: google scholar
       href: https://scholar.google.com/citations?user=vcinYsEAAAAJ&hl=en
 ---
