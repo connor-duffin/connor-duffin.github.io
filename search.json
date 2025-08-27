@@ -4,13 +4,41 @@
     "href": "code.html",
     "title": "code",
     "section": "",
-    "text": "The below is an incomplete list of the open-source software that I’ve worked on:\n\npredictsr: an R package to load the PREDICTS database into R dataframes.\nstatFEM code to accompany these papers (FEM code is implemented with FEniCS):\n\nThe 1D case (including the internal wave experimental data) is housed at statkdv-paper. This code computes the posterior (filtering) distribution using extended and ensemble Kalman filters.\nThe 2D case is located here. This also computes the posterior filtering distribution using a low-rank extended Kalman filter algorithm.\n\nula-statfem: code to explore Langevin dynamics samplers with statFEM. Published in SIAM JUQ. Includes sfmcmc package which implements a bunch of different MCMC samplers, including ULA (see this classic paper), MALA, and preconditioned Crank-Nicolson.\nstatfenics: a set of tools to help when doing statistics with FEniCS. Includes functions to build Gaussian process inference on top of FEniCS, and utilities to aid in interpolating finite element solutions."
+    "text": "The below code are snippets of current working projects."
+  },
+  {
+    "objectID": "code.html#c",
+    "href": "code.html#c",
+    "title": "code",
+    "section": "C++",
+    "text": "C++\n\nuLinalg: a library to handle 2D array operations, including broadcasting, LU decompositions, and Cholesky decompositions.\npunter: an implementation of the Shunting-Yard to parse mathematical expressions from infix to postfix notation."
+  },
+  {
+    "objectID": "code.html#r",
+    "href": "code.html#r",
+    "title": "code",
+    "section": "R",
+    "text": "R\n\npredictsr: an R package to load the PREDICTS database into R dataframes."
+  },
+  {
+    "objectID": "code.html#python",
+    "href": "code.html#python",
+    "title": "code",
+    "section": "Python",
+    "text": "Python\n\nstatFEM code to accompany these papers (FEM code is implemented with FEniCS):\n\nThe 1D case (including the internal wave experimental data) is housed at statkdv-paper. This code computes the posterior (filtering) distribution using extended and ensemble Kalman filters.\nThe 2D case is located here. This also computes the posterior filtering distribution using a low-rank extended Kalman filter algorithm.\n\nula-statfem: code to explore Langevin dynamics samplers with statFEM. Published in SIAM JUQ. Includes sfmcmc package which implements a bunch of different MCMC samplers, including ULA (see this classic paper), MALA, and preconditioned Crank-Nicolson.\nstatfenics: a set of tools to help when doing statistics with FEniCS. Includes functions to build Gaussian process inference on top of FEniCS, and utilities to aid in interpolating finite element solutions."
+  },
+  {
+    "objectID": "code.html#misc",
+    "href": "code.html#misc",
+    "title": "code",
+    "section": "Misc",
+    "text": "Misc\n\ndotfiles for *nix systems that I use day-to-day. Made portable via the great yadm dotfile manager."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Connor Duffin",
     "section": "",
-    "text": "I am a Research Software Engineer in the Biodiversity Futures Lab at the Natural History Museum in London. I work on writing code to model Biodiversity change - the so-called Biodiversity Intactness Index.\nBefore that, I was Postdoc in the Department of Engineering at the University of Cambridge, and even before that, I was a PhD student in computational statistics and applied mathematics at the University of Western Australia. I researched data assimilation for fluid mechanics problems.\nI am a passionate R developer and thoroughly enjoy developing pipelines to model data in all sorts of forms, with all sorts of methods."
+    "text": "I am a Research Software Engineer in the Biodiversity Futures Lab at the Natural History Museum in London. I lead the software engineering behind the Biodiversity Intactness Index.\nBefore that, I was Postdoc in the Department of Engineering at the University of Cambridge, and even before that, I was a PhD student in computational statistics and applied mathematics at the University of Western Australia. My research was in data assimilation and machine learning for fluid mechanics problems.\nI am a passionate research engineer and mathematical modeller, and thoroughly enjoy building and maintaining systems to model things.\nTo get an idea of the sorts of things I work on, head to the code tab."
   }
 ]

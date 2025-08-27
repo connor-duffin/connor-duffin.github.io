@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.30">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6fc6195e38ca3f90f170295c411c3394.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6b7b1f96f629559f2d9caf3825f573c5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -108,8 +108,17 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#c" id="toc-c" class="nav-link active" data-scroll-target="#c">C++</a></li>
+  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r">R</a></li>
+  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python">Python</a></li>
+  <li><a href="#misc" id="toc-misc" class="nav-link" data-scroll-target="#misc">Misc</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -133,9 +142,23 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The below is an incomplete list of the open-source software that I’ve worked on:</p>
+<p>The below code are snippets of current working projects.</p>
+<section id="c" class="level2">
+<h2 class="anchored" data-anchor-id="c">C++</h2>
+<ul>
+<li><a href="https://github.com/connor-duffin/ulinalg">uLinalg</a>: a library to handle 2D array operations, including broadcasting, LU decompositions, and Cholesky decompositions.</li>
+<li><a href="https://github.com/connor-duffin/punter">punter</a>: an implementation of the <a href="https://en.wikipedia.org/wiki/Shunting_yard_algorithm">Shunting-Yard</a> to parse mathematical expressions from infix to postfix notation.</li>
+</ul>
+</section>
+<section id="r" class="level2">
+<h2 class="anchored" data-anchor-id="r">R</h2>
 <ul>
 <li><a href="https://github.com/Biodiversity-Futures-Lab/predictsr">predictsr</a>: an R package to load the <a href="https://www.nhm.ac.uk/our-science/research/projects/predicts.html">PREDICTS</a> database into R dataframes.</li>
+</ul>
+</section>
+<section id="python" class="level2">
+<h2 class="anchored" data-anchor-id="python">Python</h2>
+<ul>
 <li><a href="https://doi.org/10.1073/pnas.2015006118">statFEM</a> code to accompany these papers (FEM code is implemented with <a href="https://fenicsproject.org/">FEniCS</a>):
 <ul>
 <li>The 1D case (including the internal wave experimental data) is housed at <a href="https://github.com/connor-duffin/statkdv-paper">statkdv-paper</a>. This code computes the posterior (filtering) distribution using extended and ensemble Kalman filters.</li>
@@ -144,8 +167,15 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://github.com/connor-duffin/ula-statfem">ula-statfem</a>: code to explore Langevin dynamics samplers with <a href="https://doi.org/10.1073/pnas.2015006118">statFEM</a>. Published in <a href="https://doi.org/10.1137/21M1463094">SIAM JUQ</a>. Includes <a href="https://github.com/connor-duffin/ula-statfem/tree/main/sfmcmc">sfmcmc</a> package which implements a bunch of different MCMC samplers, including ULA <a href="https://doi.org/10.3150/18-BEJ1073">(see this classic paper)</a>, <a href="https://en.wikipedia.org/wiki/Metropolis-adjusted_Langevin_algorithm">MALA</a>, and <a href="https://en.wikipedia.org/wiki/Preconditioned_Crank%E2%80%93Nicolson_algorithm">preconditioned Crank-Nicolson</a>.</li>
 <li><a href="https://github.com/connor-duffin/statfenics">statfenics</a>: a set of tools to help when doing statistics with <a href="https://fenicsproject.org/">FEniCS</a>. Includes functions to build Gaussian process inference on top of FEniCS, and utilities to aid in interpolating finite element solutions.</li>
 </ul>
+</section>
+<section id="misc" class="level2">
+<h2 class="anchored" data-anchor-id="misc">Misc</h2>
+<ul>
+<li><a href="https://github.com/connor-duffin/dotfiles.git">dotfiles</a> for *nix systems that I use day-to-day. Made portable via the great <a href="https://yadm.io/">yadm</a> dotfile manager.</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
