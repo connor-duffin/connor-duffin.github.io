@@ -2,7 +2,7 @@
 title: "code"
 ---
 
-The below code are snippets of current working
+The below code are snippets of current working projects.
 
 ## C++
 
