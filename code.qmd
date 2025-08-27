@@ -2,11 +2,25 @@
 title: "code"
 ---
 
-The below is an incomplete list of the open-source software that I've worked on:
+The below code are snippets of current working
+
+## C++
+
+* [uLinalg](https://github.com/connor-duffin/ulinalg): a library to handle 2D array operations, including broadcasting, LU decompositions, and Cholesky decompositions.
+* [punter](https://github.com/connor-duffin/punter): an implementation of the [Shunting-Yard](https://en.wikipedia.org/wiki/Shunting_yard_algorithm) to parse mathematical expressions from infix to postfix notation.
+
+## R
 
 * [predictsr](https://github.com/Biodiversity-Futures-Lab/predictsr): an R package to load the [PREDICTS](https://www.nhm.ac.uk/our-science/research/projects/predicts.html) database into R dataframes.
+
+## Python
+
 * [statFEM](https://doi.org/10.1073/pnas.2015006118) code to accompany these papers (FEM code is implemented with [FEniCS](https://fenicsproject.org/)):
   * The 1D case (including the internal wave experimental data) is housed at [statkdv-paper](https://github.com/connor-duffin/statkdv-paper). This code computes the posterior (filtering) distribution using extended and ensemble Kalman filters.
   * The 2D case is located [here](https://github.com/connor-duffin/low-rank-statfem). This also computes the posterior filtering distribution using a low-rank extended Kalman filter algorithm.
 * [ula-statfem](https://github.com/connor-duffin/ula-statfem): code to explore Langevin dynamics samplers with [statFEM](https://doi.org/10.1073/pnas.2015006118). Published in [SIAM JUQ](https://doi.org/10.1137/21M1463094). Includes [sfmcmc](https://github.com/connor-duffin/ula-statfem/tree/main/sfmcmc) package which implements a bunch of different MCMC samplers, including ULA [(see this classic paper)](https://doi.org/10.3150/18-BEJ1073), [MALA](https://en.wikipedia.org/wiki/Metropolis-adjusted_Langevin_algorithm), and [preconditioned Crank-Nicolson](https://en.wikipedia.org/wiki/Preconditioned_Crank%E2%80%93Nicolson_algorithm).
 * [statfenics](https://github.com/connor-duffin/statfenics): a set of tools to help when doing statistics with [FEniCS](https://fenicsproject.org/). Includes functions to build Gaussian process inference on top of FEniCS, and utilities to aid in interpolating finite element solutions.
+
+## Misc
+
+* [dotfiles](https://github.com/connor-duffin/dotfiles.git) for *nix systems that I use day-to-day. Made portable via the great [yadm](https://yadm.io/) dotfile manager.

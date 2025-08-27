@@ -1,7 +1,7 @@
 ---
 title: "Connor Duffin"
 image: images/conpressed.jpg
-about: 
+about:
   template: solana
   image-width: 15em
   links:
@@ -17,8 +17,11 @@ about:
       href: https://scholar.google.com/citations?user=vcinYsEAAAAJ&hl=en
 ---
 
-I am a Research Software Engineer in the [Biodiversity Futures Lab](https://www.nhm.ac.uk/our-science/research/projects/predicts.html) at the [Natural History Museum](https://www.nhm.ac.uk/) in London. I work on writing code to model Biodiversity change - the so-called [Biodiversity Intactness Index](https://www.nhm.ac.uk/our-science/services/data/biodiversity-intactness-index.html).
+I am a Research Software Engineer in the [Biodiversity Futures Lab](https://www.nhm.ac.uk/our-science/research/projects/predicts.html) at the [Natural History Museum](https://www.nhm.ac.uk/) in London. I lead the software engineering behind the [Biodiversity Intactness Index](https://www.nhm.ac.uk/our-science/services/data/biodiversity-intactness-index.html).
 
-Before that, I was Postdoc in the Department of Engineering at the University of Cambridge, and even before that, I was a PhD student in computational statistics and applied mathematics at the University of Western Australia. I researched data assimilation for fluid mechanics problems.
+Before that, I was Postdoc in the Department of Engineering at the University of Cambridge, and even before that, I was a PhD student in computational statistics and applied mathematics at the University of Western Australia. My research was in data assimilation and machine learning for fluid mechanics problems.
 
-I am a passionate R developer and thoroughly enjoy developing pipelines to model data in all sorts of forms, with all sorts of methods.
+I am a passionate research engineer and mathematical modeller, and thoroughly enjoy building and maintaining systems to model things.
+
+To get an idea of the sorts of things I work on, head to the [code](./code.qmd) tab.
+
