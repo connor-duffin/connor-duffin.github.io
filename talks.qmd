@@ -1,0 +1,7 @@
+---
+title: "talks"
+---
+
+Here are some talks I have given over the years, with some links to the slides videos where available:
+
+- Statistical Finite Element Methods for nonlinear PDEs (DARE ARC centre,  April 2021) [[video](https://youtu.be/-_ydQvOCBOc?si=OkhV-PylYgmPXN7Y)]

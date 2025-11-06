@@ -1,44 +1,23 @@
 [
   {
-    "objectID": "code.html",
-    "href": "code.html",
-    "title": "code",
-    "section": "",
-    "text": "The below code are snippets of current working projects."
-  },
-  {
-    "objectID": "code.html#c",
-    "href": "code.html#c",
-    "title": "code",
-    "section": "C++",
-    "text": "C++\n\nuLinalg: a library to handle 2D array operations, including broadcasting, LU decompositions, and Cholesky decompositions.\npunter: an implementation of the Shunting-Yard to parse mathematical expressions from infix to postfix notation."
-  },
-  {
-    "objectID": "code.html#r",
-    "href": "code.html#r",
-    "title": "code",
-    "section": "R",
-    "text": "R\n\npredictsr: an R package to load the PREDICTS database into R dataframes."
-  },
-  {
-    "objectID": "code.html#python",
-    "href": "code.html#python",
-    "title": "code",
-    "section": "Python",
-    "text": "Python\n\nstatFEM code to accompany these papers (FEM code is implemented with FEniCS):\n\nThe 1D case (including the internal wave experimental data) is housed at statkdv-paper. This code computes the posterior (filtering) distribution using extended and ensemble Kalman filters.\nThe 2D case is located here. This also computes the posterior filtering distribution using a low-rank extended Kalman filter algorithm.\n\nula-statfem: code to explore Langevin dynamics samplers with statFEM. Published in SIAM JUQ. Includes sfmcmc package which implements a bunch of different MCMC samplers, including ULA (see this classic paper), MALA, and preconditioned Crank-Nicolson.\nstatfenics: a set of tools to help when doing statistics with FEniCS. Includes functions to build Gaussian process inference on top of FEniCS, and utilities to aid in interpolating finite element solutions."
-  },
-  {
-    "objectID": "code.html#misc",
-    "href": "code.html#misc",
-    "title": "code",
-    "section": "Misc",
-    "text": "Misc\n\ndotfiles for *nix systems that I use day-to-day. Made portable via the great yadm dotfile manager."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Connor Duffin",
     "section": "",
-    "text": "I am a Research Software Engineer in the Biodiversity Futures Lab at the Natural History Museum in London. I lead the software engineering behind the Biodiversity Intactness Index.\nBefore that, I was Postdoc in the Department of Engineering at the University of Cambridge, and even before that, I was a PhD student in computational statistics and applied mathematics at the University of Western Australia. My research was in data assimilation and machine learning for fluid mechanics problems.\nI am a passionate research engineer and mathematical modeller, and thoroughly enjoy building and maintaining systems to model things.\nTo get an idea of the sorts of things I work on, head to the code tab."
+    "text": "I am a Research Software Engineer in the Biodiversity Futures Lab at the Natural History Museum in London. I lead the software engineering behind the Biodiversity Intactness Index.\nThis involves a mixture of statistical modelling, data engineering, and HPC to produce a reproducible and efficient pipeline to generate global biodiversity data. I am fortunate to work with an amazing team of computational ecologists and data scientists.\nI come from a research background in computational statistics and scientific ML, completing a Postdoc at the University of Cambridge, and a PhD from the University of Western Australia.\nTo get an idea of the sorts of things I work on, head to the code tab, or see some of the talks I have given over the years."
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "talks",
+    "section": "",
+    "text": "Here are some talks I have given over the years, with some links to the slides videos where available:\n\nBFL Code Reviews Workshop (Biodiversity Futures Lab, November 2025) [slides].\nNHM R Unit Testing Workshop (Natural History Museum R Group, May 2025) [slides].\nStatistical Finite Element Methods (SIAM UQ 2024 Invited talk, March 2024).\nLow-rank Statistical Finite Element Methods (ICIAM 2023 Invited talk, July 2023).\nStatistical Finite Element Methods for nonlinear PDEs (IMSI Gaussian Processes Workshop, September 2022).\nStatistical Finite Element Methods (COSINES-Bayes4Health Invited talk, May 2022) [video].\nStatistical Finite Element Methods for nonlinear PDEs (DARE ARC centre, April 2021) [video]."
+  },
+  {
+    "objectID": "code.html",
+    "href": "code.html",
+    "title": "code",
+    "section": "",
+    "text": "The below code are snippets of various projects I have worked on over the past couple years. These are all open source, so check them out on my GitHub.\nActively maintained\nThese are projects that I actively maintain and use day-to-day:\n\npredictsr is an R package to load the PREDICTS database into R dataframes. It is actively maintained and used in the Biodiversity Futures Lab at the Natural History Museum.\ndotfiles for *nix systems that I use day-to-day. I use yadm to manage these files across all the systems I use (e.g., work laptop, HPC). Includes configurations for zsh, tmux, neovim, and more.\n\nResearch software\nThese are research software projects that I have worked on in the past:\n\nstatFEM code to accompany these papers (FEM code is implemented with FEniCS):\n\nThe 1D case (including the internal wave experimental data) is housed at statkdv-paper. This code computes the posterior (filtering) distribution using extended and ensemble Kalman filters.\nThe 2D case is located here. This also computes the posterior filtering distribution using a low-rank extended Kalman filter algorithm.\n\nula-statfem: code to explore Langevin dynamics samplers with statFEM. Published in SIAM JUQ. Includes sfmcmc package which implements a bunch of different MCMC samplers, including ULA (see this classic paper), MALA, and preconditioned Crank-Nicolson.\nstatfenics: a set of tools to help when doing statistics with FEniCS. Includes functions to build Gaussian process inference on top of FEniCS, and utilities to aid in interpolating finite element solutions.\n\nC++\nThese are some toy projects that I’ve used to learn about C++ and its tooling:\n\nuLinalg: a library to handle 2D array operations, including broadcasting, LU decompositions, and Cholesky decompositions. A bit like a mini version of numpy.\npspectral: a library to compute pseudospectral solutions to differential equations, such as Navier-Stokes, using Fourier transforms (FFTW).\npunter: an implementation of the Shunting-Yard to parse mathematical expressions from infix to postfix notation."
   }
 ]
