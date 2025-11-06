@@ -9,6 +9,7 @@ website:
       - href: index.qmd
         text: home
       - code.qmd
+      - talks.qmd
   page-footer: 
     center:
       "Connor Duffin"

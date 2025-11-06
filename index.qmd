@@ -11,17 +11,17 @@ about:
     - icon: github
       text: Github
       href: https://github.com/connor-duffin
+    - text: Google scholar
+      href: https://scholar.google.com/citations?user=vcinYsEAAAAJ&hl=en
     - text: LinkedIn
       href: https://www.linkedin.com/in/connor-duffin-5824452b9
-    - text: google scholar
-      href: https://scholar.google.com/citations?user=vcinYsEAAAAJ&hl=en
 ---
 
 I am a Research Software Engineer in the [Biodiversity Futures Lab](https://www.nhm.ac.uk/our-science/research/projects/predicts.html) at the [Natural History Museum](https://www.nhm.ac.uk/) in London. I lead the software engineering behind the [Biodiversity Intactness Index](https://www.nhm.ac.uk/our-science/services/data/biodiversity-intactness-index.html).
 
-Before that, I was Postdoc in the Department of Engineering at the University of Cambridge, and even before that, I was a PhD student in computational statistics and applied mathematics at the University of Western Australia. My research was in data assimilation and machine learning for fluid mechanics problems.
+This involves a mixture of statistical modelling, data engineering, and HPC to produce a reproducible and efficient pipeline to generate global biodiversity data. I am fortunate to work with an amazing team of computational ecologists and data scientists.
 
-I am a passionate research engineer and mathematical modeller, and thoroughly enjoy building and maintaining systems to model things.
+I come from a research background in computational statistics and scientific ML, completing a Postdoc at the [University of Cambridge](https://www.cam.ac.uk/), and a PhD from the [University of Western Australia](https://www.uwa.edu.au/).
 
-To get an idea of the sorts of things I work on, head to the [code](./code.qmd) tab.
+To get an idea of the sorts of things I work on, head to the [code](./code.qmd) tab, or see some of the [talks](./talks.qmd) I have given over the years.
 
