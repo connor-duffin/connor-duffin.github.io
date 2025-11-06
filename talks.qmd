@@ -7,6 +7,7 @@ Here are some talks I have given over the years, with some links to the slides/v
 - BFL Code Reviews Workshop (Biodiversity Futures Lab, November 2025) [[slides](https://connor-duffin.github.io/bfl-code-reviews-workshop/#/)].
 - NHM R Unit Testing Workshop (Natural History Museum R Group, May 2025) [[slides](https://connor-duffin.github.io/unit-testing-talk/#/title-slide)].
 - Statistical Finite Element Methods (SIAM UQ 2024 Invited talk, March 2024).
+- Time-Dependent Statistical Finite Element Problems: Unstructured Data, Unknown Observation Operators, and Inversion (Warwick Algorithms Seminar, February 2024).
 - Low-rank Statistical Finite Element Methods (ICIAM 2023 Invited talk, July 2023).
 - Statistical Finite Element Methods for nonlinear PDEs (IMSI Gaussian Processes Workshop, September 2022).
 - Statistical Finite Element Methods (COSINES-Bayes4Health Invited talk, May 2022) [[video](https://youtu.be/8DKPUMgTbGU?si=3rdlc9OYDsGAX9fW)].
