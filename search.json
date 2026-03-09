@@ -11,14 +11,14 @@
     "href": "blog/first-post.html",
     "title": "Starting Up",
     "section": "",
-    "text": "Hi! This is planned to build up an archive of different things that I find interest related to programming, software development, and computational sciences.\nI plan to post things that I find generally interesting in relation to stuff that I’ve worked on in the past, or things that I’ve more recently done, or more general thoughts on the industries in which I find myself working."
+    "text": "Hi! This is planned to build up an archive of different things that I find interest related to programming, software development, and computational sciences.\nI plan to post things that I find generally interesting in relation to stuff that I’ve worked on in the past, or things that I’ve more recently done, or more general thoughts on the interface of science and software development."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Connor Duffin",
     "section": "",
-    "text": "I am a Research Engineer in the Biodiversity Futures Lab at the Natural History Museum in London. I lead the software engineering behind the Biodiversity Intactness Index.\nThis involves a mixture of statistical modelling, data engineering, and HPC to produce a reproducible and efficient pipeline to generate global biodiversity data. I am fortunate to work with an amazing team of computational ecologists and data scientists.\nI come from a research background in computational statistics and scientific ML, completing a Postdoc at the University of Cambridge, and a PhD from the University of Western Australia.\nTo get an idea of the sorts of things I work on, head to the code tab, or see some of the talks I have given over the years."
+    "text": "I am a Research Engineer in the Biodiversity Futures Lab at the Natural History Museum in London. I lead the software engineering behind the Biodiversity Intactness Index.\nThis involves a mixture of statistical modelling, data engineering, and HPC to produce a reproducible and efficient pipeline to generate global biodiversity data. I am fortunate to work with an amazing team of computational ecologists and data scientists.\nI come from a research background in scientific ML, completing a Postdoc at the University of Cambridge, and a PhD from the University of Western Australia.\nTo get an idea of the sorts of things I work on, head to the code tab, or see some of the talks I have given over the years."
   },
   {
     "objectID": "blog.html",
