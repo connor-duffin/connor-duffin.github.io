@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>code – Connor Duffin</title>
+<title>Blog – Connor Duffin</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -68,7 +70,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -95,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./code.html" aria-current="page"> 
+    <a class="nav-link" href="./code.html"> 
 <span class="menu-text">code</span></a>
   </li>  
   <li class="nav-item">
@@ -103,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link active" href="./blog.html" aria-current="page"> 
 <span class="menu-text">blog</span></a>
   </li>  
 </ul>
@@ -117,15 +177,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2VuZXJhbA==">General <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">code</h1>
+<h1 class="title">Blog</h1>
 </div>
 
 
@@ -142,35 +202,42 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The below code are snippets of various projects I have worked on over the past couple years. These are all open source, so check them out on <a href="https://github.com/connor-duffin">my GitHub</a>.</p>
-<p><strong>Actively maintained</strong></p>
-<p>These are projects that I actively maintain and use day-to-day:</p>
-<ul>
-<li><a href="https://github.com/Biodiversity-Futures-Lab/predictsr">predictsr</a> is an R package to load the <a href="https://www.nhm.ac.uk/our-science/research/projects/predicts.html">PREDICTS</a> database into R dataframes. It is actively maintained and used in the Biodiversity Futures Lab at the Natural History Museum.</li>
-<li><a href="https://github.com/connor-duffin/dotfiles.git">dotfiles</a> for *nix systems that I use day-to-day. I use <a href="https://yadm.io/">yadm</a> to manage these files across all the systems I use (e.g., work laptop, HPC). Includes configurations for <code>zsh</code>, <code>tmux</code>, <code>neovim</code>, and more.</li>
-</ul>
-<p><strong>Research software</strong></p>
-<p>These are research software projects that I have worked on in the past:</p>
-<ul>
-<li><a href="https://doi.org/10.1073/pnas.2015006118">statFEM</a> code to accompany these papers (FEM code is implemented with <a href="https://fenicsproject.org/">FEniCS</a>):
-<ul>
-<li>The 1D case (including the internal wave experimental data) is housed at <a href="https://github.com/connor-duffin/statkdv-paper">statkdv-paper</a>. This code computes the posterior (filtering) distribution using extended and ensemble Kalman filters.</li>
-<li>The 2D case is located <a href="https://github.com/connor-duffin/low-rank-statfem">here</a>. This also computes the posterior filtering distribution using a low-rank extended Kalman filter algorithm.</li>
-</ul></li>
-<li><a href="https://github.com/connor-duffin/ula-statfem">ula-statfem</a>: code to explore Langevin dynamics samplers with <a href="https://doi.org/10.1073/pnas.2015006118">statFEM</a>. Published in <a href="https://doi.org/10.1137/21M1463094">SIAM JUQ</a>. Includes <a href="https://github.com/connor-duffin/ula-statfem/tree/main/sfmcmc">sfmcmc</a> package which implements a bunch of different MCMC samplers, including ULA <a href="https://doi.org/10.3150/18-BEJ1073">(see this classic paper)</a>, <a href="https://en.wikipedia.org/wiki/Metropolis-adjusted_Langevin_algorithm">MALA</a>, and <a href="https://en.wikipedia.org/wiki/Preconditioned_Crank%E2%80%93Nicolson_algorithm">preconditioned Crank-Nicolson</a>.</li>
-<li><a href="https://github.com/connor-duffin/statfenics">statfenics</a>: a set of tools to help when doing statistics with <a href="https://fenicsproject.org/">FEniCS</a>. Includes functions to build Gaussian process inference on top of FEniCS, and utilities to aid in interpolating finite element solutions.</li>
-</ul>
-<p><strong>C++</strong></p>
-<p>These are some toy projects that I’ve used to learn about C++ and its tooling:</p>
-<ul>
-<li><a href="https://github.com/connor-duffin/ulinalg">uLinalg</a>: a library to handle 2D array operations, including broadcasting, LU decompositions, and Cholesky decompositions. A bit like a mini version of <a href="https://numpy.org/">numpy</a>.</li>
-<li><a href="https://github.com/connor-duffin/pspectral">pspectral</a>: a library to compute pseudospectral solutions to differential equations, such as Navier-Stokes, using Fourier transforms (<a href="https://www.fftw.org/">FFTW</a>).</li>
-<li><a href="https://github.com/connor-duffin/punter">punter</a>: an implementation of the <a href="https://en.wikipedia.org/wiki/Shunting_yard_algorithm">Shunting-Yard</a> to parse mathematical expressions from infix to postfix notation.</li>
-</ul>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="R2VuZXJhbA==" data-listing-date-sort="1773014400000" data-listing-file-modified-sort="1773069553621" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="64">
+<div class="thumbnail"><a href="./blog/first-post.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./blog/first-post.html" class="no-external">Starting Up</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('R2VuZXJhbA=='); return false;">General</div>
+
+</div>
+<div class="delink listing-description"><a href="./blog/first-post.html" class="no-external">
+Hi! This is planned to build up an archive of different things that I find interest related to programming, software development, and computational sciences.
+</a></div>
+</div>
+<div class="metadata">
+<a href="./blog/first-post.html" class="no-external">
+<div class="listing-date">
+Mar 9, 2026
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
