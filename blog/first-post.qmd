@@ -1,0 +1,9 @@
+---
+title: "Starting Up"
+date: 2026-03-09
+categories: [General]
+---
+
+Hi! This is planned to build up an archive of different things that I find interest related to programming, software development, and computational sciences.
+
+I plan to post things that I find generally interesting in relation to stuff that I've worked on in the past, or things that I've more recently done.

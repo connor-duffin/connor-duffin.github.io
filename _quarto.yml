@@ -10,6 +10,8 @@ website:
         text: home
       - code.qmd
       - talks.qmd
+      - href: blog.qmd
+        text: blog
   page-footer: 
     center:
       "Connor Duffin"
