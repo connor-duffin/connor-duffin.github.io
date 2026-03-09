@@ -21,7 +21,7 @@ I am a Research Engineer in the [Biodiversity Futures Lab](https://www.nhm.ac.uk
 
 This involves a mixture of statistical modelling, data engineering, and HPC to produce a reproducible and efficient pipeline to generate global biodiversity data. I am fortunate to work with an amazing team of computational ecologists and data scientists.
 
-I come from a research background in computational statistics and scientific ML, completing a Postdoc at the [University of Cambridge](https://www.cam.ac.uk/), and a PhD from the [University of Western Australia](https://www.uwa.edu.au/).
+I come from a research background in scientific ML, completing a Postdoc at the [University of Cambridge](https://www.cam.ac.uk/), and a PhD from the [University of Western Australia](https://www.uwa.edu.au/).
 
 To get an idea of the sorts of things I work on, head to the [code](./code.qmd) tab, or see some of the [talks](./talks.qmd) I have given over the years.
 
