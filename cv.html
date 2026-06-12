@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>code – Connor Duffin</title>
+<title>cv – Connor Duffin</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -32,15 +35,14 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-353d9ca91e8f7c15e7db2f78e51f2121.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c292ef837b43ff4b15b10ad88bdaaed5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -95,8 +97,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./code.html" aria-current="page"> 
-<span class="menu-text">code</span></a>
+    <a class="nav-link active" href="./cv.html" aria-current="page"> 
+<span class="menu-text">cv</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./software.html"> 
+<span class="menu-text">software</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./talks.html"> 
@@ -117,15 +123,29 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#experience" id="toc-experience" class="nav-link active" data-scroll-target="#experience">Experience</a></li>
+  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
+  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
+  <li><a href="#selected-software" id="toc-selected-software" class="nav-link" data-scroll-target="#selected-software">Selected Software</a></li>
+  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a>
+  <ul class="collapse">
+  <li><a href="#preprints" id="toc-preprints" class="nav-link" data-scroll-target="#preprints">Preprints</a></li>
+  <li><a href="#phd-thesis" id="toc-phd-thesis" class="nav-link" data-scroll-target="#phd-thesis">PhD Thesis</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">code</h1>
+<h1 class="title">cv</h1>
 </div>
 
 
@@ -142,33 +162,90 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The below code are snippets of various projects I have worked on over the past couple years. These are all open source, so check them out on <a href="https://github.com/connor-duffin">my GitHub</a>.</p>
-<p><strong>Actively maintained</strong></p>
-<p>These are projects that I actively maintain and use day-to-day:</p>
+<p>I’m an experienced Research/HPC Engineer with a background in mathematical modelling and applied statistics, and a bit of scientific ML.</p>
+<p>I work at the <a href="https://www.nhm.ac.uk">Natural History Museum</a> as a research engineer in the <a href="https://www.nhm.ac.uk/our-science/research/projects/predicts.html">Biodiversity Futures Lab</a> on the <a href="https://www.nhm.ac.uk/our-science/services/data/biodiversity-intactness-index.html">Biodiversity Intactness Index</a>. I lead the software engineering behind the BII, which involves developing and publishing R packages, lots of refactoring and optimisation (!), and a lot of HPC work to build a reproducible data pipeline to generate global biodiversity data.</p>
+<p>I completed a PhD in applied maths at <a href="https://www.uwa.edu.au/">the University of Western Australia</a> in 2022, and was a postdoc at <a href="https://www.cam.ac.uk/">the University of Cambridge</a> from 2021-2024. I worked in-between scientific machine learning and applied mathematics, developing numerical methods to assimilate observations into physical models.</p>
+<p>My undergrad degree was in Mathematics and Statistics, which I also completed at the <a href="https://www.uwa.edu.au/">University of Western Australia</a> in 2018. In my honours thesis I worked on modelling daily rainfall across Australia using <a href="https://en.wikipedia.org/wiki/Mixture_model">mixture models</a>.</p>
+<section id="experience" class="level2">
+<h2 class="anchored" data-anchor-id="experience">Experience</h2>
 <ul>
-<li><a href="https://github.com/Biodiversity-Futures-Lab/predictsr">predictsr</a> is an R package to load the <a href="https://www.nhm.ac.uk/our-science/research/projects/predicts.html">PREDICTS</a> database into R dataframes. It is actively maintained and used in the Biodiversity Futures Lab at the Natural History Museum.</li>
-<li><a href="https://github.com/connor-duffin/dotfiles.git">dotfiles</a> for *nix systems that I use day-to-day. I use <a href="https://yadm.io/">yadm</a> to manage these files across all the systems I use (e.g., work laptop, HPC). Includes configurations for <code>zsh</code>, <code>tmux</code>, <code>neovim</code>, and more.</li>
+<li><em>(2024-present)</em> <strong>Research Software Engineer</strong> Natural History Museum, London.</li>
+<li><em>(2021-2024)</em> <strong>Postdoctoral Research Associate</strong>, University of Cambridge.</li>
+<li><em>(2018-2020)</em> <strong>Teaching Assistant</strong>, University of Western Australia.</li>
 </ul>
-<p><strong>Research software</strong></p>
-<p>These are research software projects that I have worked on in the past:</p>
+</section>
+<section id="education" class="level2">
+<h2 class="anchored" data-anchor-id="education">Education</h2>
 <ul>
-<li><a href="https://doi.org/10.1073/pnas.2015006118">statFEM</a> code to accompany these papers (FEM code is implemented with <a href="https://fenicsproject.org/">FEniCS</a>):
-<ul>
-<li>The 1D case (including the internal wave experimental data) is housed at <a href="https://github.com/connor-duffin/statkdv-paper">statkdv-paper</a>. This code computes the posterior (filtering) distribution using extended and ensemble Kalman filters.</li>
-<li>The 2D case is located <a href="https://github.com/connor-duffin/low-rank-statfem">here</a>. This also computes the posterior filtering distribution using a low-rank extended Kalman filter algorithm.</li>
-</ul></li>
-<li><a href="https://github.com/connor-duffin/ula-statfem">ula-statfem</a>: code to explore Langevin dynamics samplers with <a href="https://doi.org/10.1073/pnas.2015006118">statFEM</a>. Published in <a href="https://doi.org/10.1137/21M1463094">SIAM JUQ</a>. Includes <a href="https://github.com/connor-duffin/ula-statfem/tree/main/sfmcmc">sfmcmc</a> package which implements a bunch of different MCMC samplers, including ULA <a href="https://doi.org/10.3150/18-BEJ1073">(see this classic paper)</a>, <a href="https://en.wikipedia.org/wiki/Metropolis-adjusted_Langevin_algorithm">MALA</a>, and <a href="https://en.wikipedia.org/wiki/Preconditioned_Crank%E2%80%93Nicolson_algorithm">preconditioned Crank-Nicolson</a>.</li>
-<li><a href="https://github.com/connor-duffin/statfenics">statfenics</a>: a set of tools to help when doing statistics with <a href="https://fenicsproject.org/">FEniCS</a>. Includes functions to build Gaussian process inference on top of FEniCS, and utilities to aid in interpolating finite element solutions.</li>
+<li><em>(2019-2022)</em> <strong>PhD</strong>, Department of Mathematics and Statistics, University of Western Australia.</li>
+<li><em>(2015-2018)</em> <strong>BSc (Honours)</strong>, Mathematics and Statistics, University of Western Australia.</li>
 </ul>
-<p><strong>C++</strong></p>
-<p>These are some toy projects that I’ve used to learn about C++ and its tooling:</p>
+</section>
+<section id="skills" class="level2">
+<h2 class="anchored" data-anchor-id="skills">Skills</h2>
+<p><strong>Languages</strong>: R, Python, C++, CMake.</p>
+<p><strong>Frameworks/libraries</strong>:</p>
 <ul>
-<li><a href="https://github.com/connor-duffin/ulinalg">uLinalg</a>: a library to handle 2D array operations, including broadcasting, LU decompositions, and Cholesky decompositions. A bit like a mini version of <a href="https://numpy.org/">numpy</a>.</li>
-<li><a href="https://github.com/connor-duffin/pspectral">pspectral</a>: a library to compute pseudospectral solutions to differential equations, such as Navier-Stokes, using Fourier transforms (<a href="https://www.fftw.org/">FFTW</a>).</li>
-<li><a href="https://github.com/connor-duffin/punter">punter</a>: an implementation of the <a href="https://en.wikipedia.org/wiki/Shunting_yard_algorithm">Shunting-Yard</a> to parse mathematical expressions from infix to postfix notation.</li>
+<li>(R): <code>lme4</code>, <code>sf</code>, <code>terra</code>, <code>ggplot2</code>, <code>targets</code>, <code>Stan/brms</code>, <code>testthat</code>.</li>
+<li>(Python): <code>numpy</code>, <code>Scipy</code>, <code>JAX</code>, <code>matplotlib</code>, <code>mpi4py</code>, <code>pytest</code>.</li>
+<li>(C++): <code>FEniCS</code>, <code>FFTW</code>, <code>Eigen</code>, <code>catch2</code>.</li>
+</ul>
+<p><strong>Tools</strong>: Git, Docker, AWS (EC2/S3), HPC (slurm, MPI).</p>
+</section>
+<section id="selected-software" class="level2">
+<h2 class="anchored" data-anchor-id="selected-software">Selected Software</h2>
+<ul>
+<li><a href="https://github.com/Biodiversity-Futures-Lab/predictsr"><strong>predictsr</strong></a>: an R package to load the <a href="https://www.nhm.ac.uk/our-science/research/projects/predicts.html">PREDICTS</a> database into R dataframes and cache them to disk. Published on <a href="https://cran.r-project.org/package=predictsr">CRAN</a>.</li>
+<li><a href="https://github.com/Biodiversity-Futures-Lab/ssmooth"><strong>ssmooth</strong></a>: an R package for smoothing spatial data using statistical methods. Published on <a href="https://cran.r-project.org/package=ssmooth">CRAN</a>.</li>
+</ul>
+</section>
+<section id="publications" class="level2">
+<h2 class="anchored" data-anchor-id="publications">Publications</h2>
+<ul>
+<li><strong>The statistical finite element method: A theoretical foundation for digital twins</strong><br>
+<em>Duffin, Connor</em>; Glyn-Davies, Alex; Vadeboncoeur, Arnaud; Girolami, Mark.<br>
+<em>Quality Engineering</em> <strong>38</strong>(1), 112–121 (2026).</li>
+<li><strong>Statistical finite elements via interacting particle Langevin dynamics</strong><br>
+Glyn-Davies, Alex; <em>Duffin, Connor</em>; Kazlauskaite, Ieva; Girolami, Mark; Akyildiz, Ö Deniz.<br>
+<em>SIAM/ASA Journal on Uncertainty Quantification</em> <strong>13</strong>(3), 1200–1227 (2025).</li>
+<li><strong>Probabilistic Super-Resolution for High-Fidelity Physical System Simulations with Uncertainty Quantification</strong><br>
+Zhang, Pengyu; <em>Duffin, Connor</em>; Glyn-Davies, Alex; Vadeboncoeur, Arnaud; Girolami, Mark.<br>
+<em>arXiv preprint</em> arXiv:2502.10280 (2025).</li>
+<li><strong>Φ-DVAE: Physics-informed dynamical variational autoencoders for unstructured data assimilation</strong><br>
+Glyn-Davies, Alex; <em>Duffin, Connor</em>; Akyildiz, O Deniz; Girolami, Mark.<br>
+<em>Journal of Computational Physics</em> <strong>515</strong>, 113293 (2024).</li>
+<li><strong>Low-rank statistical finite elements for scalable model-data synthesis</strong><br>
+<em>Duffin, Connor</em>; Cripps, Edward; Stemler, Thomas; Girolami, Mark.<br>
+<em>Journal of Computational Physics</em> <strong>463</strong>, 111261 (2022).</li>
+<li><strong>Statistical finite elements via Langevin dynamics</strong><br>
+Akyildiz, Ömer Deniz; <em>Duffin, Connor</em>; Sabanis, Sotirios; Girolami, Mark.<br>
+<em>SIAM/ASA Journal on Uncertainty Quantification</em> <strong>10</strong>(4), 1560–1585 (2022).</li>
+<li><strong>Statistical finite elements for misspecified models</strong><br>
+<em>Duffin, Connor</em>; Cripps, Edward; Stemler, Thomas; Girolami, Mark.<br>
+<em>Proceedings of the National Academy of Sciences</em> <strong>118</strong>(2), e2015006118 (2021).</li>
+</ul>
+<section id="preprints" class="level3">
+<h3 class="anchored" data-anchor-id="preprints">Preprints</h3>
+<ul>
+<li><strong>Global indicator data tracking changes in species-level biodiversity persistence, ecosystem resilience under climate change, and protected-area representativeness and connectedness</strong><br>
+Ware, Chris; Valavi, Roozbeh; Vickers, Mat; Giljohann, Kathryn M; Mokany, Karel; Purvis, Andy; Walkden, Patrick A; De Palma, Adriana; <em>Duffin, Connor</em>; Contu, Sara; <em>et al.</em><br>
+<em>EcoEvoRxiv</em> (2026).</li>
+<li><strong>Exploring Model Misspecification in Statistical Finite Elements via Shallow Water Equations</strong><br>
+<em>Duffin, Connor</em>; Branson, Paul; Rayson, Matt; Girolami, Mark; Cripps, Edward; Stemler, Thomas.<br>
+<em>arXiv preprint</em> arXiv:2307.05334 (2023).</li>
+</ul>
+</section>
+<section id="phd-thesis" class="level3">
+<h3 class="anchored" data-anchor-id="phd-thesis">PhD Thesis</h3>
+<ul>
+<li><strong>Statistical finite element methods for nonlinear PDEs</strong><br>
+<em>Duffin, Connor</em>.<br>
+Manuscript (2022).</li>
 </ul>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

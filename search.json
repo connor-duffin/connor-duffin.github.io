@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "code.html",
-    "href": "code.html",
-    "title": "code",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Connor Duffin",
     "section": "",
-    "text": "The below code are snippets of various projects I have worked on over the past couple years. These are all open source, so check them out on my GitHub.\nActively maintained\nThese are projects that I actively maintain and use day-to-day:\n\npredictsr is an R package to load the PREDICTS database into R dataframes. It is actively maintained and used in the Biodiversity Futures Lab at the Natural History Museum.\ndotfiles for *nix systems that I use day-to-day. I use yadm to manage these files across all the systems I use (e.g., work laptop, HPC). Includes configurations for zsh, tmux, neovim, and more.\n\nResearch software\nThese are research software projects that I have worked on in the past:\n\nstatFEM code to accompany these papers (FEM code is implemented with FEniCS):\n\nThe 1D case (including the internal wave experimental data) is housed at statkdv-paper. This code computes the posterior (filtering) distribution using extended and ensemble Kalman filters.\nThe 2D case is located here. This also computes the posterior filtering distribution using a low-rank extended Kalman filter algorithm.\n\nula-statfem: code to explore Langevin dynamics samplers with statFEM. Published in SIAM JUQ. Includes sfmcmc package which implements a bunch of different MCMC samplers, including ULA (see this classic paper), MALA, and preconditioned Crank-Nicolson.\nstatfenics: a set of tools to help when doing statistics with FEniCS. Includes functions to build Gaussian process inference on top of FEniCS, and utilities to aid in interpolating finite element solutions.\n\nC++\nThese are some toy projects that I’ve used to learn about C++ and its tooling:\n\nuLinalg: a library to handle 2D array operations, including broadcasting, LU decompositions, and Cholesky decompositions. A bit like a mini version of numpy.\npspectral: a library to compute pseudospectral solutions to differential equations, such as Navier-Stokes, using Fourier transforms (FFTW).\npunter: an implementation of the Shunting-Yard to parse mathematical expressions from infix to postfix notation."
+    "text": "I am a Research Software Engineer in the Biodiversity Futures Lab at the Natural History Museum in London. I lead the software engineering behind the Biodiversity Intactness Index.\nThis involves a mixture of statistical modelling, data engineering, and HPC to produce a reproducible and efficient pipeline to generate global biodiversity data. I am fortunate to work with an amazing team of computational ecologists and data scientists.\nI come from a research background in statistics, completing a Postdoc at the University of Cambridge, and a PhD from the University of Western Australia. I developed models that bridge computational statistics and numerical methods, with applications mostly in fluid dynamics."
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "talks",
+    "section": "",
+    "text": "Here are some talks I have given over the years, with some links to the slides/videos where available:\n\nEngineering the Biodiversity Intactness Index (NHM, University of Glasgow, March 2026).\nBFL Code Reviews Workshop (Biodiversity Futures Lab, November 2025) [slides].\nNHM R Unit Testing Workshop (Natural History Museum R Group, May 2025) [slides].\nStatistical Finite Element Methods from my past academic life (e.g. SIAM UQ 2024, Warwick Algorithms 2024, February 2024, ICIAM 2023, IMSI 2022, etc). See below for a talk from the DARE ARC Centre of Excellence."
   },
   {
     "objectID": "blog/first-post.html",
@@ -14,11 +21,81 @@
     "text": "Hi! This is planned to build up an archive of different things that I find interest related to programming, software development, and computational sciences.\nI plan to post things that I find generally interesting in relation to stuff that I’ve worked on in the past, or things that I’ve more recently done, or more general thoughts on the interface of science and software development."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Connor Duffin",
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "software",
     "section": "",
-    "text": "I am a Research Engineer in the Biodiversity Futures Lab at the Natural History Museum in London. I lead the software engineering behind the Biodiversity Intactness Index.\nThis involves a mixture of statistical modelling, data engineering, and HPC to produce a reproducible and efficient pipeline to generate global biodiversity data. I am fortunate to work with an amazing team of computational ecologists and data scientists.\nI come from a research background in scientific ML, completing a Postdoc at the University of Cambridge, and a PhD from the University of Western Australia.\nTo get an idea of the sorts of things I work on, head to the code tab, or see some of the talks I have given over the years."
+    "text": "This is a brief portfolio of software development projects I’ve been involved in, including both research software and proprietary software for my current role at the Natural History Museum."
+  },
+  {
+    "objectID": "software.html#r-packages",
+    "href": "software.html#r-packages",
+    "title": "software",
+    "section": "R packages",
+    "text": "R packages\n\npredictsr is an R package to load the PREDICTS database into R dataframes and cache them to disk. Published on CRAN.\nssmooth is an R package for smoothing spatial data using statistical methods. Uses C++ for the core smoothing algorithms, and is published on CRAN."
+  },
+  {
+    "objectID": "software.html#selected-proprietary-works",
+    "href": "software.html#selected-proprietary-works",
+    "title": "software",
+    "section": "Selected Proprietary Works",
+    "text": "Selected Proprietary Works\n\nBII codebase (NHM): R packages to ingest, transform, and model the PREDICTS database, which is used to generate the Biodiversity Intactness Index. Using R geospatial stack: terra, sf, lme4, etc.\nBII HPC pipeline (NHM): HPC pipelines to generate global biodiversity data for the BII. Using targets and Docker containers, running on AWS EC2.\nBII QA pipeline (NHM): generate QA checks for the BII data, including visualisations and summary statistics. Standard geospatial data processing using R geospatial stack: terra, sf, ggplot2, etc."
+  },
+  {
+    "objectID": "software.html#research-software",
+    "href": "software.html#research-software",
+    "title": "software",
+    "section": "Research software",
+    "text": "Research software\n\nstatFEM code to accompany these papers (FEM code is implemented with FEniCS):\n\nThe 1D case (including the internal wave experimental data) is housed at statkdv-paper. This code computes the posterior (filtering) distribution using extended and ensemble Kalman filters.\nThe 2D case is located here. This also computes the posterior filtering distribution using a low-rank extended Kalman filter algorithm.\n\nula-statfem: code to explore Langevin dynamics samplers with statFEM. Published in SIAM JUQ. Includes sfmcmc package which implements a bunch of different MCMC samplers, including ULA (see this classic paper), MALA, and preconditioned Crank-Nicolson.\nstatfenics: a set of tools to help when doing statistics with FEniCS. Includes functions to build Gaussian process inference on top of FEniCS, and utilities to aid in interpolating finite element solutions."
+  },
+  {
+    "objectID": "software.html#personal-projects",
+    "href": "software.html#personal-projects",
+    "title": "software",
+    "section": "Personal projects",
+    "text": "Personal projects\n\ndotfiles for *nix systems that I use day-to-day. I use yadm to manage these files across all the systems I use (e.g., work laptop, HPC). Includes configurations for zsh, tmux, neovim, and more.\nuLinalg: a C++ library to handle 2D array operations, including broadcasting, LU decompositions, and Cholesky decompositions. A bit like a mini version of numpy.\npspectral: a C++ library to compute pseudospectral solutions to differential equations, such as Navier-Stokes, using Fourier transforms (FFTW).\npunter: a C++ implementation of the Shunting-Yard to parse mathematical expressions from infix to postfix notation."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "cv",
+    "section": "",
+    "text": "I’m an experienced Research/HPC Engineer with a background in mathematical modelling and applied statistics, and a bit of scientific ML.\nI work at the Natural History Museum as a research engineer in the Biodiversity Futures Lab on the Biodiversity Intactness Index. I lead the software engineering behind the BII, which involves developing and publishing R packages, lots of refactoring and optimisation (!), and a lot of HPC work to build a reproducible data pipeline to generate global biodiversity data.\nI completed a PhD in applied maths at the University of Western Australia in 2022, and was a postdoc at the University of Cambridge from 2021-2024. I worked in-between scientific machine learning and applied mathematics, developing numerical methods to assimilate observations into physical models.\nMy undergrad degree was in Mathematics and Statistics, which I also completed at the University of Western Australia in 2018. In my honours thesis I worked on modelling daily rainfall across Australia using mixture models."
+  },
+  {
+    "objectID": "cv.html#experience",
+    "href": "cv.html#experience",
+    "title": "cv",
+    "section": "Experience",
+    "text": "Experience\n\n(2024-present) Research Software Engineer Natural History Museum, London.\n(2021-2024) Postdoctoral Research Associate, University of Cambridge.\n(2018-2020) Teaching Assistant, University of Western Australia."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "cv",
+    "section": "Education",
+    "text": "Education\n\n(2019-2022) PhD, Department of Mathematics and Statistics, University of Western Australia.\n(2015-2018) BSc (Honours), Mathematics and Statistics, University of Western Australia."
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "cv",
+    "section": "Skills",
+    "text": "Skills\nLanguages: R, Python, C++, CMake.\nFrameworks/libraries:\n\n(R): lme4, sf, terra, ggplot2, targets, Stan/brms, testthat.\n(Python): numpy, Scipy, JAX, matplotlib, mpi4py, pytest.\n(C++): FEniCS, FFTW, Eigen, catch2.\n\nTools: Git, Docker, AWS (EC2/S3), HPC (slurm, MPI)."
+  },
+  {
+    "objectID": "cv.html#selected-software",
+    "href": "cv.html#selected-software",
+    "title": "cv",
+    "section": "Selected Software",
+    "text": "Selected Software\n\npredictsr: an R package to load the PREDICTS database into R dataframes and cache them to disk. Published on CRAN.\nssmooth: an R package for smoothing spatial data using statistical methods. Published on CRAN."
+  },
+  {
+    "objectID": "cv.html#publications",
+    "href": "cv.html#publications",
+    "title": "cv",
+    "section": "Publications",
+    "text": "Publications\n\nThe statistical finite element method: A theoretical foundation for digital twins\nDuffin, Connor; Glyn-Davies, Alex; Vadeboncoeur, Arnaud; Girolami, Mark.\nQuality Engineering 38(1), 112–121 (2026).\nStatistical finite elements via interacting particle Langevin dynamics\nGlyn-Davies, Alex; Duffin, Connor; Kazlauskaite, Ieva; Girolami, Mark; Akyildiz, Ö Deniz.\nSIAM/ASA Journal on Uncertainty Quantification 13(3), 1200–1227 (2025).\nProbabilistic Super-Resolution for High-Fidelity Physical System Simulations with Uncertainty Quantification\nZhang, Pengyu; Duffin, Connor; Glyn-Davies, Alex; Vadeboncoeur, Arnaud; Girolami, Mark.\narXiv preprint arXiv:2502.10280 (2025).\nΦ-DVAE: Physics-informed dynamical variational autoencoders for unstructured data assimilation\nGlyn-Davies, Alex; Duffin, Connor; Akyildiz, O Deniz; Girolami, Mark.\nJournal of Computational Physics 515, 113293 (2024).\nLow-rank statistical finite elements for scalable model-data synthesis\nDuffin, Connor; Cripps, Edward; Stemler, Thomas; Girolami, Mark.\nJournal of Computational Physics 463, 111261 (2022).\nStatistical finite elements via Langevin dynamics\nAkyildiz, Ömer Deniz; Duffin, Connor; Sabanis, Sotirios; Girolami, Mark.\nSIAM/ASA Journal on Uncertainty Quantification 10(4), 1560–1585 (2022).\nStatistical finite elements for misspecified models\nDuffin, Connor; Cripps, Edward; Stemler, Thomas; Girolami, Mark.\nProceedings of the National Academy of Sciences 118(2), e2015006118 (2021).\n\n\nPreprints\n\nGlobal indicator data tracking changes in species-level biodiversity persistence, ecosystem resilience under climate change, and protected-area representativeness and connectedness\nWare, Chris; Valavi, Roozbeh; Vickers, Mat; Giljohann, Kathryn M; Mokany, Karel; Purvis, Andy; Walkden, Patrick A; De Palma, Adriana; Duffin, Connor; Contu, Sara; et al.\nEcoEvoRxiv (2026).\nExploring Model Misspecification in Statistical Finite Elements via Shallow Water Equations\nDuffin, Connor; Branson, Paul; Rayson, Matt; Girolami, Mark; Cripps, Edward; Stemler, Thomas.\narXiv preprint arXiv:2307.05334 (2023).\n\n\n\nPhD Thesis\n\nStatistical finite element methods for nonlinear PDEs\nDuffin, Connor.\nManuscript (2022)."
   },
   {
     "objectID": "blog.html",
@@ -26,12 +103,5 @@
     "title": "Blog",
     "section": "",
     "text": "Starting Up\n\n\n\nGeneral\n\n\n\n\n\n\n\n\n\nMar 9, 2026\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "talks",
-    "section": "",
-    "text": "Here are some talks I have given over the years, with some links to the slides/videos where available:\n\nEngineering the Biodiversity Intactness Index (NHM, University of Glasgow, March 2026).\nBFL Code Reviews Workshop (Biodiversity Futures Lab, November 2025) [slides].\nNHM R Unit Testing Workshop (Natural History Museum R Group, May 2025) [slides].\nStatistical Finite Element Methods from my past academic life (e.g. SIAM UQ 2024, Warwick Algorithms 2024, February 2024, ICIAM 2023, IMSI 2022, etc). See below for a talk from the DARE ARC Centre of Excellence."
   }
 ]
