@@ -1,0 +1,78 @@
+---
+title: "cv"
+---
+
+I'm an experienced Research/HPC Engineer with a background in mathematical modelling and applied statistics, and a bit of scientific ML.
+
+I work at the [Natural History Museum](https://www.nhm.ac.uk) as a research engineer in the [Biodiversity Futures Lab](https://www.nhm.ac.uk/our-science/research/projects/predicts.html) on the [Biodiversity Intactness Index](https://www.nhm.ac.uk/our-science/services/data/biodiversity-intactness-index.html). I lead the software engineering behind the BII, which involves developing and publishing R packages, lots of refactoring and optimisation (!), and a lot of HPC work to build a reproducible data pipeline to generate global biodiversity data.
+
+I completed a PhD in applied maths at [the University of Western Australia](https://www.uwa.edu.au/) in 2022, and was a postdoc at [the University of Cambridge](https://www.cam.ac.uk/) from 2021-2024. I worked in-between scientific machine learning and applied mathematics, developing numerical methods to assimilate observations into physical models.
+
+My undergrad degree was in Mathematics and Statistics, which I also completed at the [University of Western Australia](https://www.uwa.edu.au/) in 2018. In my honours thesis I worked on modelling daily rainfall across Australia using [mixture models](https://en.wikipedia.org/wiki/Mixture_model).
+
+## Experience
+
+- *(2024-present)* **Research Software Engineer** Natural History Museum, London.
+- *(2021-2024)* **Postdoctoral Research Associate**, University of Cambridge.
+- *(2018-2020)* **Teaching Assistant**, University of Western Australia.
+
+## Education
+
+- *(2019-2022)* **PhD**, Department of Mathematics and Statistics, University of Western Australia.
+- *(2015-2018)* **BSc (Honours)**, Mathematics and Statistics, University of Western Australia.
+
+## Skills
+
+**Languages**: R, Python, C++, CMake.
+
+**Frameworks/libraries**: 
+
+- (R): `lme4`, `sf`, `terra`, `ggplot2`, `targets`, `Stan/brms`, `testthat`.
+- (Python): `numpy`, `Scipy`, `JAX`, `matplotlib`, `mpi4py`, `pytest`.
+- (C++): `FEniCS`, `FFTW`, `Eigen`, `catch2`.
+
+**Tools**: Git, Docker, AWS (EC2/S3), HPC (slurm, MPI).
+
+## Selected Software
+
+- [**predictsr**](https://github.com/Biodiversity-Futures-Lab/predictsr): an R package to load the [PREDICTS](https://www.nhm.ac.uk/our-science/research/projects/predicts.html) database into R dataframes and cache them to disk. Published on [CRAN](https://cran.r-project.org/package=predictsr).
+- [**ssmooth**](https://github.com/Biodiversity-Futures-Lab/ssmooth): an R package for smoothing spatial data using statistical methods. Published on [CRAN](https://cran.r-project.org/package=ssmooth).
+
+## Publications
+
+- **The statistical finite element method: A theoretical foundation for digital twins**  
+  *Duffin, Connor*; Glyn-Davies, Alex; Vadeboncoeur, Arnaud; Girolami, Mark.  
+  *Quality Engineering* **38**(1), 112–121 (2026).
+- **Statistical finite elements via interacting particle Langevin dynamics**  
+  Glyn-Davies, Alex; *Duffin, Connor*; Kazlauskaite, Ieva; Girolami, Mark; Akyildiz, Ö Deniz.  
+  *SIAM/ASA Journal on Uncertainty Quantification* **13**(3), 1200–1227 (2025).
+- **Probabilistic Super-Resolution for High-Fidelity Physical System Simulations with Uncertainty Quantification**  
+  Zhang, Pengyu; *Duffin, Connor*; Glyn-Davies, Alex; Vadeboncoeur, Arnaud; Girolami, Mark.  
+  *arXiv preprint* arXiv:2502.10280 (2025).
+- **Φ-DVAE: Physics-informed dynamical variational autoencoders for unstructured data assimilation**  
+  Glyn-Davies, Alex; *Duffin, Connor*; Akyildiz, O Deniz; Girolami, Mark.  
+  *Journal of Computational Physics* **515**, 113293 (2024).
+- **Low-rank statistical finite elements for scalable model-data synthesis**  
+  *Duffin, Connor*; Cripps, Edward; Stemler, Thomas; Girolami, Mark.  
+  *Journal of Computational Physics* **463**, 111261 (2022).
+- **Statistical finite elements via Langevin dynamics**  
+  Akyildiz, Ömer Deniz; *Duffin, Connor*; Sabanis, Sotirios; Girolami, Mark.  
+  *SIAM/ASA Journal on Uncertainty Quantification* **10**(4), 1560–1585 (2022).
+- **Statistical finite elements for misspecified models**  
+  *Duffin, Connor*; Cripps, Edward; Stemler, Thomas; Girolami, Mark.  
+  *Proceedings of the National Academy of Sciences* **118**(2), e2015006118 (2021).
+
+### Preprints
+
+- **Global indicator data tracking changes in species-level biodiversity persistence, ecosystem resilience under climate change, and protected-area representativeness and connectedness**  
+  Ware, Chris; Valavi, Roozbeh; Vickers, Mat; Giljohann, Kathryn M; Mokany, Karel; Purvis, Andy; Walkden, Patrick A; De Palma, Adriana; *Duffin, Connor*; Contu, Sara; *et al.*  
+  *EcoEvoRxiv* (2026).
+- **Exploring Model Misspecification in Statistical Finite Elements via Shallow Water Equations**  
+  *Duffin, Connor*; Branson, Paul; Rayson, Matt; Girolami, Mark; Cripps, Edward; Stemler, Thomas.  
+  *arXiv preprint* arXiv:2307.05334 (2023).
+
+### PhD Thesis
+
+- **Statistical finite element methods for nonlinear PDEs**  
+  *Duffin, Connor*.  
+  Manuscript (2022).

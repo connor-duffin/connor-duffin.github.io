@@ -8,8 +8,12 @@ website:
     left:
       - href: index.qmd
         text: home
-      - code.qmd
-      - talks.qmd
+      - href: cv.qmd
+        text: cv
+      - href: software.qmd
+        text: software
+      - href: talks.qmd
+        text: talks
       - href: blog.qmd
         text: blog
   page-footer: 
