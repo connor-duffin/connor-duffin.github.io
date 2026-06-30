@@ -2,9 +2,9 @@
 title: "cv"
 ---
 
-I'm an experienced Research/HPC Engineer with a background in mathematical modelling and applied statistics, and a bit of scientific ML.
+I'm an experienced Research/HPC Engineer with a background in mathematical modelling and applied statistics.
 
-I work at the [Natural History Museum](https://www.nhm.ac.uk) as a research engineer in the [Biodiversity Futures Lab](https://www.nhm.ac.uk/our-science/research/projects/predicts.html) on the [Biodiversity Intactness Index](https://www.nhm.ac.uk/our-science/services/data/biodiversity-intactness-index.html). I lead the software engineering behind the BII, which involves developing and publishing R packages, lots of refactoring and optimisation (!), and a lot of HPC work to build a reproducible data pipeline to generate global biodiversity data.
+I work at the [Natural History Museum](https://www.nhm.ac.uk) as a research engineer in the [Biodiversity Futures Lab](https://www.nhm.ac.uk/our-science/research/projects/predicts.html) on the [Biodiversity Intactness Index (BII)](https://www.nhm.ac.uk/our-science/services/data/biodiversity-intactness-index.html). I lead the software engineering behind the BII, which involves developing and publishing R packages, lots of refactoring and optimisation (!), and a lot of HPC work to build a reproducible data pipeline to generate global biodiversity data.
 
 I completed a PhD in applied maths at [the University of Western Australia](https://www.uwa.edu.au/) in 2022, and was a postdoc at [the University of Cambridge](https://www.cam.ac.uk/) from 2021-2024. I worked in-between scientific machine learning and applied mathematics, developing numerical methods to assimilate observations into physical models.
 
@@ -12,7 +12,8 @@ My undergrad degree was in Mathematics and Statistics, which I also completed at
 
 ## Experience
 
-- *(2024-present)* **Research Software Engineer** Natural History Museum, London.
+- *(2026-Present)* **Senior Research Software Engineer**, Natural History Museum, London.
+- *(2024-2026)* **Research Software Engineer** Natural History Museum, London.
 - *(2021-2024)* **Postdoctoral Research Associate**, University of Cambridge.
 - *(2018-2020)* **Teaching Assistant**, University of Western Australia.
 
