@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Connor Duffin",
     "section": "",
-    "text": "I am a Research Software Engineer in the Biodiversity Futures Lab at the Natural History Museum in London. I lead the software engineering behind the Biodiversity Intactness Index.\nThis involves a mixture of statistical modelling, data engineering, and HPC to produce a reproducible and efficient pipeline to generate global biodiversity data. I am fortunate to work with an amazing team of computational ecologists and data scientists.\nI come from a research background in statistics, completing a Postdoc at the University of Cambridge, and a PhD from the University of Western Australia. I developed models that bridge computational statistics and numerical methods, with applications mostly in fluid dynamics."
+    "text": "I am a Senior Research Software Engineer in the Biodiversity Futures Lab at the Natural History Museum in London. I lead the software engineering behind the Biodiversity Intactness Index.\nThis involves a mixture of statistical modelling, data engineering, and HPC to produce a reproducible and efficient pipeline to generate global biodiversity data. I am fortunate to work with an amazing team of computational ecologists and data scientists.\nI come from a research background in statistics, completing a Postdoc at the University of Cambridge, and a PhD from the University of Western Australia. I developed models that bridge computational statistics and numerical methods, with applications mostly in fluid dynamics."
   },
   {
     "objectID": "talks.html",
@@ -60,14 +60,14 @@
     "href": "cv.html",
     "title": "cv",
     "section": "",
-    "text": "I’m an experienced Research/HPC Engineer with a background in mathematical modelling and applied statistics, and a bit of scientific ML.\nI work at the Natural History Museum as a research engineer in the Biodiversity Futures Lab on the Biodiversity Intactness Index. I lead the software engineering behind the BII, which involves developing and publishing R packages, lots of refactoring and optimisation (!), and a lot of HPC work to build a reproducible data pipeline to generate global biodiversity data.\nI completed a PhD in applied maths at the University of Western Australia in 2022, and was a postdoc at the University of Cambridge from 2021-2024. I worked in-between scientific machine learning and applied mathematics, developing numerical methods to assimilate observations into physical models.\nMy undergrad degree was in Mathematics and Statistics, which I also completed at the University of Western Australia in 2018. In my honours thesis I worked on modelling daily rainfall across Australia using mixture models."
+    "text": "I’m an experienced Research/HPC Engineer with a background in mathematical modelling and applied statistics.\nI work at the Natural History Museum as a research engineer in the Biodiversity Futures Lab on the Biodiversity Intactness Index (BII). I lead the software engineering behind the BII, which involves developing and publishing R packages, lots of refactoring and optimisation (!), and a lot of HPC work to build a reproducible data pipeline to generate global biodiversity data.\nI completed a PhD in applied maths at the University of Western Australia in 2022, and was a postdoc at the University of Cambridge from 2021-2024. I worked in-between scientific machine learning and applied mathematics, developing numerical methods to assimilate observations into physical models.\nMy undergrad degree was in Mathematics and Statistics, which I also completed at the University of Western Australia in 2018. In my honours thesis I worked on modelling daily rainfall across Australia using mixture models."
   },
   {
     "objectID": "cv.html#experience",
     "href": "cv.html#experience",
     "title": "cv",
     "section": "Experience",
-    "text": "Experience\n\n(2024-present) Research Software Engineer Natural History Museum, London.\n(2021-2024) Postdoctoral Research Associate, University of Cambridge.\n(2018-2020) Teaching Assistant, University of Western Australia."
+    "text": "Experience\n\n(2026-Present) Senior Research Software Engineer, Natural History Museum, London.\n(2024-2026) Research Software Engineer Natural History Museum, London.\n(2021-2024) Postdoctoral Research Associate, University of Cambridge.\n(2018-2020) Teaching Assistant, University of Western Australia."
   },
   {
     "objectID": "cv.html#education",
