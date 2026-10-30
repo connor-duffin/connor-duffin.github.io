@@ -17,8 +17,8 @@ about:
       href: https://www.linkedin.com/in/connor-duffin-5824452b9
 ---
 
-I am a Senior Research Software Engineer in the [Biodiversity Futures Lab](https://www.nhm.ac.uk/our-science/research/projects/predicts.html) at the [Natural History Museum](https://www.nhm.ac.uk/) in London. I lead the software engineering behind the [Biodiversity Intactness Index](https://www.nhm.ac.uk/our-science/services/data/biodiversity-intactness-index.html).
+I'm a statistician who builds interpretable models for messy observational data, along with the software to run them reliably at scale.
 
-This involves a mixture of statistical modelling, data engineering, and HPC to produce a reproducible and efficient pipeline to generate global biodiversity data. I am fortunate to work with an amazing team of computational ecologists and data scientists.
+At the [Natural History Museum](https://www.nhm.ac.uk/) in London, I lead the modelling and engineering behind the [Biodiversity Intactness Index](https://www.nhm.ac.uk/our-science/services/data/biodiversity-intactness-index.html). This involves hierarchical mixed-effects models fitted to heterogeneous data pooled from many independent field studies, then projected globally.
 
-I come from a research background in statistics, completing a Postdoc at the [University of Cambridge](https://www.cam.ac.uk/), and a PhD from the [University of Western Australia](https://www.uwa.edu.au/). I developed models that bridge computational statistics and numerical methods, with applications mostly in fluid dynamics.
+Before that, I did a PhD in statistics at the [University of Western Australia](https://www.uwa.edu.au/) and a postdoc at the [University of Cambridge](https://www.cam.ac.uk/), developing Bayesian methods for combining mechanistic models with data when those models are known to be wrong ([PNAS, 2021](https://doi.org/10.1073/pnas.2015006118)).
