@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.20">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-17888a1159294d3eb470f19f6f52f5a5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c292ef837b43ff4b15b10ad88bdaaed5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9abe05a382c786e507c85032af69977f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -128,15 +131,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#experience" id="toc-experience" class="nav-link active" data-scroll-target="#experience">Experience</a></li>
+  <li><a href="#statistical-modelling" id="toc-statistical-modelling" class="nav-link active" data-scroll-target="#statistical-modelling">Statistical modelling</a></li>
+  <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a></li>
   <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
   <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
   <li><a href="#selected-software" id="toc-selected-software" class="nav-link" data-scroll-target="#selected-software">Selected Software</a></li>
-  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a>
-  <ul class="collapse">
-  <li><a href="#preprints" id="toc-preprints" class="nav-link" data-scroll-target="#preprints">Preprints</a></li>
-  <li><a href="#phd-thesis" id="toc-phd-thesis" class="nav-link" data-scroll-target="#phd-thesis">PhD Thesis</a></li>
-  </ul></li>
+  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a></li>
   </ul>
 </nav>
     </div>
@@ -162,36 +162,69 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I’m an experienced Research/HPC Engineer with a background in mathematical modelling and applied statistics.</p>
-<p>I work at the <a href="https://www.nhm.ac.uk">Natural History Museum</a> as a research engineer in the <a href="https://www.nhm.ac.uk/our-science/research/projects/predicts.html">Biodiversity Futures Lab</a> on the <a href="https://www.nhm.ac.uk/our-science/services/data/biodiversity-intactness-index.html">Biodiversity Intactness Index (BII)</a>. I lead the software engineering behind the BII, which involves developing and publishing R packages, lots of refactoring and optimisation (!), and a lot of HPC work to build a reproducible data pipeline to generate global biodiversity data.</p>
-<p>I completed a PhD in applied maths at <a href="https://www.uwa.edu.au/">the University of Western Australia</a> in 2022, and was a postdoc at <a href="https://www.cam.ac.uk/">the University of Cambridge</a> from 2021-2024. I worked in-between scientific machine learning and applied mathematics, developing numerical methods to assimilate observations into physical models.</p>
-<p>My undergrad degree was in Mathematics and Statistics, which I also completed at the <a href="https://www.uwa.edu.au/">University of Western Australia</a> in 2018. In my honours thesis I worked on modelling daily rainfall across Australia using <a href="https://en.wikipedia.org/wiki/Mixture_model">mixture models</a>.</p>
+<p>Statistician with experience building interpretable models for complex observational data, and the software to fit them at scale. I currently lead the modelling and engineering behind the <a href="https://www.nhm.ac.uk/our-science/services/data/biodiversity-intactness-index.html">Biodiversity Intactness Index (BII)</a> in the <a href="https://www.nhm.ac.uk/our-science/research/projects/predicts.html">Biodiversity Futures Lab</a> at the <a href="https://www.nhm.ac.uk">Natural History Museum</a>, London.</p>
+<p>I have a PhD in statistics from <a href="https://www.uwa.edu.au/">the University of Western Australia</a> and was a postdoc at <a href="https://www.cam.ac.uk/">the University of Cambridge</a>, where I developed Bayesian methods for combining mechanistic models with data when those models are known to be wrong.</p>
+<section id="statistical-modelling" class="level2">
+<h2 class="anchored" data-anchor-id="statistical-modelling">Statistical modelling</h2>
+<ul>
+<li><strong>Inference under model misspecification.</strong> Developed the statistical finite element method, a Bayesian framework that embeds a Gaussian process discrepancy term in a mechanistic model so that inference stays honest when the model is wrong.<br>
+<em>PNAS</em>, 2021 · <a href="https://doi.org/10.1073/pnas.2015006118">paper</a></li>
+<li><strong>Scalable Bayesian computation.</strong> Built low-rank approximations and Langevin-based sampling schemes that make posterior inference tractable for high-dimensional models.<br>
+<em>J. Comput. Phys.</em>, 2022 · <a href="https://doi.org/10.1016/j.jcp.2022.111261">paper</a> · <em>SIAM/ASA JUQ</em>, 2022 · <a href="DOI">paper</a></li>
+<li><strong>Learning from unstructured data.</strong> Co-developed physics-informed variational autoencoders that link raw, unstructured observations to interpretable latent dynamics.<br>
+<em>J. Comput. Phys.</em>, 2024 · <a href="https://doi.org/10.1016/j.jcp.2024.113293">paper</a></li>
+</ul>
+</section>
 <section id="experience" class="level2">
 <h2 class="anchored" data-anchor-id="experience">Experience</h2>
 <ul>
-<li><em>(2026-Present)</em> <strong>Senior Research Software Engineer</strong>, Natural History Museum, London.</li>
-<li><em>(2024-2026)</em> <strong>Research Software Engineer</strong> Natural History Museum, London.</li>
-<li><em>(2021-2024)</em> <strong>Postdoctoral Research Associate</strong>, University of Cambridge.</li>
-<li><em>(2018-2020)</em> <strong>Teaching Assistant</strong>, University of Western Australia.</li>
+<li><strong>Senior Research Software Engineer</strong> — Natural History Museum, London <em>(2026–present)</em>
+<ul>
+<li>Lead the statistical modelling and technical development of the BII, a global biodiversity indicator built on mixed-effects models from over 4 million observations, from over 35 thousand sites from the PREDICTS database.</li>
+<li>Own the model specification, validation, and uncertainty propagation from site-level data to global projections.</li>
+<li>Maintain the BII’s R packages and HPC/AWS deployment, and work with ecologists to turn research questions into models.</li>
+</ul></li>
+<li><strong>Research Software Engineer</strong> — Natural History Museum, London <em>(2024–2026)</em>
+<ul>
+<li>Refactored the BII pipeline into tested R packages and deployed it on HPC.</li>
+<li>Scaled projections from 10 km to 1 km resolution.</li>
+<li>Published two CRAN packages (<code>predictsr</code>, <code>ssmooth</code>) and added CI, testing, documentation, and QA.</li>
+</ul></li>
+<li><strong>Postdoctoral Research Associate</strong> — University of Cambridge <em>(2021–2024)</em>
+<ul>
+<li>Recruited to Mark Girolami’s group in the final year of my PhD; completed the thesis alongside the first year of the postdoc.</li>
+<li>Developed Bayesian inference methods (MCMC, Langevin dynamics, filtering) for complex physical models, with a focus on model misspecification and uncertainty quantification.</li>
+<li>Published in <em>PNAS</em>, <em>SIAM/ASA JUQ</em>, and the <em>Journal of Computational Physics</em>.</li>
+</ul></li>
+<li><strong>Teaching Assistant</strong> — University of Western Australia <em>(2018–2020)</em>
+<ul>
+<li>Taught undergraduate and master’s statistics courses through tutorials, assessment setting, and exam marking.</li>
+</ul></li>
 </ul>
 </section>
 <section id="education" class="level2">
 <h2 class="anchored" data-anchor-id="education">Education</h2>
 <ul>
-<li><em>(2019-2022)</em> <strong>PhD</strong>, Department of Mathematics and Statistics, University of Western Australia.</li>
-<li><em>(2015-2018)</em> <strong>BSc (Honours)</strong>, Mathematics and Statistics, University of Western Australia.</li>
+<li><strong>PhD in Statistics</strong>, Department of Mathematics and Statistics, University of Western Australia <em>(2019–2022)</em>.
+<ul>
+<li>Thesis: <em>Statistical finite element methods for nonlinear PDEs</em>.</li>
+</ul></li>
+<li><strong>BSc (Honours)</strong>, Mathematics and Statistics, University of Western Australia <em>(2015–2018)</em>.
+<ul>
+<li>Honours thesis: modelling daily rainfall across Australia with <a href="https://en.wikipedia.org/wiki/Mixture_model">mixture models</a>.</li>
+</ul></li>
 </ul>
 </section>
 <section id="skills" class="level2">
 <h2 class="anchored" data-anchor-id="skills">Skills</h2>
-<p><strong>Languages</strong>: R, Python, C++, CMake.</p>
-<p><strong>Frameworks/libraries</strong>:</p>
+<p><strong>Statistical methods</strong>: hierarchical/mixed-effects models, Bayesian inference and MCMC, mixture models, spatial statistics, uncertainty quantification, model misspecification and model criticism.</p>
+<p><strong>Languages and libraries</strong>:</p>
 <ul>
-<li>(R): <code>lme4</code>, <code>sf</code>, <code>terra</code>, <code>ggplot2</code>, <code>targets</code>, <code>Stan/brms</code>, <code>testthat</code>.</li>
-<li>(Python): <code>numpy</code>, <code>Scipy</code>, <code>JAX</code>, <code>matplotlib</code>, <code>mpi4py</code>, <code>pytest</code>.</li>
-<li>(C++): <code>FEniCS</code>, <code>FFTW</code>, <code>Eigen</code>, <code>catch2</code>.</li>
+<li><strong>R</strong>: <code>lme4</code>, <code>Stan/brms</code>, <code>targets</code>, <code>sf</code>, <code>terra</code>, <code>ggplot2</code>, <code>testthat</code>.</li>
+<li><strong>Python</strong>: <code>JAX</code>, <code>numpy</code>, <code>scipy</code>, <code>matplotlib</code>, <code>mpi4py</code>, <code>pytest</code>.</li>
+<li><strong>C++</strong>: <code>Eigen</code>, <code>FEniCS</code>, <code>catch2</code>.</li>
 </ul>
-<p><strong>Tools</strong>: Git, Docker, AWS (EC2/S3), HPC (slurm, MPI).</p>
+<p><strong>Tools</strong>: Git, Docker, AWS (EC2/S3), HPC (Slurm, MPI).</p>
 </section>
 <section id="selected-software" class="level2">
 <h2 class="anchored" data-anchor-id="selected-software">Selected Software</h2>
@@ -206,15 +239,21 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>The statistical finite element method: A theoretical foundation for digital twins</strong><br>
 <em>Duffin, Connor</em>; Glyn-Davies, Alex; Vadeboncoeur, Arnaud; Girolami, Mark.<br>
 <em>Quality Engineering</em> <strong>38</strong>(1), 112–121 (2026).</li>
+<li><strong>Global indicator data tracking changes in species-level biodiversity persistence, ecosystem resilience under climate change, and protected-area representativeness and connectedness</strong><br>
+Ware, Chris; Valavi, Roozbeh; Vickers, Mat; Giljohann, Kathryn M; Mokany, Karel; Purvis, Andy; Walkden, Patrick A; De Palma, Adriana; <em>Duffin, Connor</em>; Contu, Sara; <em>et al.</em><br>
+<em>EcoEvoRxiv</em> preprint (2026).</li>
 <li><strong>Statistical finite elements via interacting particle Langevin dynamics</strong><br>
 Glyn-Davies, Alex; <em>Duffin, Connor</em>; Kazlauskaite, Ieva; Girolami, Mark; Akyildiz, Ö Deniz.<br>
 <em>SIAM/ASA Journal on Uncertainty Quantification</em> <strong>13</strong>(3), 1200–1227 (2025).</li>
-<li><strong>Probabilistic Super-Resolution for High-Fidelity Physical System Simulations with Uncertainty Quantification</strong><br>
+<li><strong>Probabilistic super-resolution for high-fidelity physical system simulations with uncertainty quantification</strong><br>
 Zhang, Pengyu; <em>Duffin, Connor</em>; Glyn-Davies, Alex; Vadeboncoeur, Arnaud; Girolami, Mark.<br>
 <em>arXiv preprint</em> arXiv:2502.10280 (2025).</li>
 <li><strong>Φ-DVAE: Physics-informed dynamical variational autoencoders for unstructured data assimilation</strong><br>
 Glyn-Davies, Alex; <em>Duffin, Connor</em>; Akyildiz, O Deniz; Girolami, Mark.<br>
 <em>Journal of Computational Physics</em> <strong>515</strong>, 113293 (2024).</li>
+<li><strong>Exploring model misspecification in statistical finite elements via shallow water equations</strong><br>
+<em>Duffin, Connor</em>; Branson, Paul; Rayson, Matt; Girolami, Mark; Cripps, Edward; Stemler, Thomas.<br>
+<em>arXiv preprint</em> arXiv:2307.05334 (2023).</li>
 <li><strong>Low-rank statistical finite elements for scalable model-data synthesis</strong><br>
 <em>Duffin, Connor</em>; Cripps, Edward; Stemler, Thomas; Girolami, Mark.<br>
 <em>Journal of Computational Physics</em> <strong>463</strong>, 111261 (2022).</li>
@@ -225,27 +264,8 @@ Akyildiz, Ömer Deniz; <em>Duffin, Connor</em>; Sabanis, Sotirios; Girolami, Mar
 <em>Duffin, Connor</em>; Cripps, Edward; Stemler, Thomas; Girolami, Mark.<br>
 <em>Proceedings of the National Academy of Sciences</em> <strong>118</strong>(2), e2015006118 (2021).</li>
 </ul>
-<section id="preprints" class="level3">
-<h3 class="anchored" data-anchor-id="preprints">Preprints</h3>
-<ul>
-<li><strong>Global indicator data tracking changes in species-level biodiversity persistence, ecosystem resilience under climate change, and protected-area representativeness and connectedness</strong><br>
-Ware, Chris; Valavi, Roozbeh; Vickers, Mat; Giljohann, Kathryn M; Mokany, Karel; Purvis, Andy; Walkden, Patrick A; De Palma, Adriana; <em>Duffin, Connor</em>; Contu, Sara; <em>et al.</em><br>
-<em>EcoEvoRxiv</em> (2026).</li>
-<li><strong>Exploring Model Misspecification in Statistical Finite Elements via Shallow Water Equations</strong><br>
-<em>Duffin, Connor</em>; Branson, Paul; Rayson, Matt; Girolami, Mark; Cripps, Edward; Stemler, Thomas.<br>
-<em>arXiv preprint</em> arXiv:2307.05334 (2023).</li>
-</ul>
-</section>
-<section id="phd-thesis" class="level3">
-<h3 class="anchored" data-anchor-id="phd-thesis">PhD Thesis</h3>
-<ul>
-<li><strong>Statistical finite element methods for nonlinear PDEs</strong><br>
-<em>Duffin, Connor</em>.<br>
-Manuscript (2022).</li>
-</ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

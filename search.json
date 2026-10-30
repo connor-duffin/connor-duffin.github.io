@@ -1,10 +1,66 @@
 [
   {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "cv",
+    "section": "",
+    "text": "Statistician with experience building interpretable models for complex observational data, and the software to fit them at scale. I currently lead the modelling and engineering behind the Biodiversity Intactness Index (BII) in the Biodiversity Futures Lab at the Natural History Museum, London.\nI have a PhD in statistics from the University of Western Australia and was a postdoc at the University of Cambridge, where I developed Bayesian methods for combining mechanistic models with data when those models are known to be wrong."
+  },
+  {
+    "objectID": "cv.html#statistical-modelling",
+    "href": "cv.html#statistical-modelling",
+    "title": "cv",
+    "section": "Statistical modelling",
+    "text": "Statistical modelling\n\nInference under model misspecification. Developed the statistical finite element method, a Bayesian framework that embeds a Gaussian process discrepancy term in a mechanistic model so that inference stays honest when the model is wrong.\nPNAS, 2021 · paper\nScalable Bayesian computation. Built low-rank approximations and Langevin-based sampling schemes that make posterior inference tractable for high-dimensional models.\nJ. Comput. Phys., 2022 · paper · SIAM/ASA JUQ, 2022 · paper\nLearning from unstructured data. Co-developed physics-informed variational autoencoders that link raw, unstructured observations to interpretable latent dynamics.\nJ. Comput. Phys., 2024 · paper"
+  },
+  {
+    "objectID": "cv.html#experience",
+    "href": "cv.html#experience",
+    "title": "cv",
+    "section": "Experience",
+    "text": "Experience\n\nSenior Research Software Engineer — Natural History Museum, London (2026–present)\n\nLead the statistical modelling and technical development of the BII, a global biodiversity indicator built on mixed-effects models from over 4 million observations, from over 35 thousand sites from the PREDICTS database.\nOwn the model specification, validation, and uncertainty propagation from site-level data to global projections.\nMaintain the BII’s R packages and HPC/AWS deployment, and work with ecologists to turn research questions into models.\n\nResearch Software Engineer — Natural History Museum, London (2024–2026)\n\nRefactored the BII pipeline into tested R packages and deployed it on HPC.\nScaled projections from 10 km to 1 km resolution.\nPublished two CRAN packages (predictsr, ssmooth) and added CI, testing, documentation, and QA.\n\nPostdoctoral Research Associate — University of Cambridge (2021–2024)\n\nRecruited to Mark Girolami’s group in the final year of my PhD; completed the thesis alongside the first year of the postdoc.\nDeveloped Bayesian inference methods (MCMC, Langevin dynamics, filtering) for complex physical models, with a focus on model misspecification and uncertainty quantification.\nPublished in PNAS, SIAM/ASA JUQ, and the Journal of Computational Physics.\n\nTeaching Assistant — University of Western Australia (2018–2020)\n\nTaught undergraduate and master’s statistics courses through tutorials, assessment setting, and exam marking."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "cv",
+    "section": "Education",
+    "text": "Education\n\nPhD in Statistics, Department of Mathematics and Statistics, University of Western Australia (2019–2022).\n\nThesis: Statistical finite element methods for nonlinear PDEs.\n\nBSc (Honours), Mathematics and Statistics, University of Western Australia (2015–2018).\n\nHonours thesis: modelling daily rainfall across Australia with mixture models."
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "cv",
+    "section": "Skills",
+    "text": "Skills\nStatistical methods: hierarchical/mixed-effects models, Bayesian inference and MCMC, mixture models, spatial statistics, uncertainty quantification, model misspecification and model criticism.\nLanguages and libraries:\n\nR: lme4, Stan/brms, targets, sf, terra, ggplot2, testthat.\nPython: JAX, numpy, scipy, matplotlib, mpi4py, pytest.\nC++: Eigen, FEniCS, catch2.\n\nTools: Git, Docker, AWS (EC2/S3), HPC (Slurm, MPI)."
+  },
+  {
+    "objectID": "cv.html#selected-software",
+    "href": "cv.html#selected-software",
+    "title": "cv",
+    "section": "Selected Software",
+    "text": "Selected Software\n\npredictsr: an R package to load the PREDICTS database into R dataframes and cache them to disk. Published on CRAN.\nssmooth: an R package for smoothing spatial data using statistical methods. Published on CRAN."
+  },
+  {
+    "objectID": "cv.html#publications",
+    "href": "cv.html#publications",
+    "title": "cv",
+    "section": "Publications",
+    "text": "Publications\n\nThe statistical finite element method: A theoretical foundation for digital twins\nDuffin, Connor; Glyn-Davies, Alex; Vadeboncoeur, Arnaud; Girolami, Mark.\nQuality Engineering 38(1), 112–121 (2026).\nGlobal indicator data tracking changes in species-level biodiversity persistence, ecosystem resilience under climate change, and protected-area representativeness and connectedness\nWare, Chris; Valavi, Roozbeh; Vickers, Mat; Giljohann, Kathryn M; Mokany, Karel; Purvis, Andy; Walkden, Patrick A; De Palma, Adriana; Duffin, Connor; Contu, Sara; et al.\nEcoEvoRxiv preprint (2026).\nStatistical finite elements via interacting particle Langevin dynamics\nGlyn-Davies, Alex; Duffin, Connor; Kazlauskaite, Ieva; Girolami, Mark; Akyildiz, Ö Deniz.\nSIAM/ASA Journal on Uncertainty Quantification 13(3), 1200–1227 (2025).\nProbabilistic super-resolution for high-fidelity physical system simulations with uncertainty quantification\nZhang, Pengyu; Duffin, Connor; Glyn-Davies, Alex; Vadeboncoeur, Arnaud; Girolami, Mark.\narXiv preprint arXiv:2502.10280 (2025).\nΦ-DVAE: Physics-informed dynamical variational autoencoders for unstructured data assimilation\nGlyn-Davies, Alex; Duffin, Connor; Akyildiz, O Deniz; Girolami, Mark.\nJournal of Computational Physics 515, 113293 (2024).\nExploring model misspecification in statistical finite elements via shallow water equations\nDuffin, Connor; Branson, Paul; Rayson, Matt; Girolami, Mark; Cripps, Edward; Stemler, Thomas.\narXiv preprint arXiv:2307.05334 (2023).\nLow-rank statistical finite elements for scalable model-data synthesis\nDuffin, Connor; Cripps, Edward; Stemler, Thomas; Girolami, Mark.\nJournal of Computational Physics 463, 111261 (2022).\nStatistical finite elements via Langevin dynamics\nAkyildiz, Ömer Deniz; Duffin, Connor; Sabanis, Sotirios; Girolami, Mark.\nSIAM/ASA Journal on Uncertainty Quantification 10(4), 1560–1585 (2022).\nStatistical finite elements for misspecified models\nDuffin, Connor; Cripps, Edward; Stemler, Thomas; Girolami, Mark.\nProceedings of the National Academy of Sciences 118(2), e2015006118 (2021)."
+  },
+  {
+    "objectID": "blog/first-post.html",
+    "href": "blog/first-post.html",
+    "title": "Starting Up",
+    "section": "",
+    "text": "Hi! This is planned to build up an archive of different things that I find interest related to programming, software development, and computational sciences.\nI plan to post things that I find generally interesting in relation to stuff that I’ve worked on in the past, or things that I’ve more recently done, or more general thoughts on the interface of science and software development."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Connor Duffin",
     "section": "",
-    "text": "I am a Senior Research Software Engineer in the Biodiversity Futures Lab at the Natural History Museum in London. I lead the software engineering behind the Biodiversity Intactness Index.\nThis involves a mixture of statistical modelling, data engineering, and HPC to produce a reproducible and efficient pipeline to generate global biodiversity data. I am fortunate to work with an amazing team of computational ecologists and data scientists.\nI come from a research background in statistics, completing a Postdoc at the University of Cambridge, and a PhD from the University of Western Australia. I developed models that bridge computational statistics and numerical methods, with applications mostly in fluid dynamics."
+    "text": "I’m a statistician who builds interpretable models for messy observational data, along with the software to run them reliably at scale.\nAt the Natural History Museum in London, I lead the modelling and engineering behind the Biodiversity Intactness Index. This involves hierarchical mixed-effects models fitted to heterogeneous data pooled from many independent field studies, then projected globally.\nBefore that, I did a PhD in statistics at the University of Western Australia and a postdoc at the University of Cambridge, developing Bayesian methods for combining mechanistic models with data when those models are known to be wrong (PNAS, 2021)."
   },
   {
     "objectID": "talks.html",
@@ -14,11 +70,11 @@
     "text": "Here are some talks I have given over the years, with some links to the slides/videos where available:\n\nEngineering the Biodiversity Intactness Index (NHM, University of Glasgow, March 2026).\nBFL Code Reviews Workshop (Biodiversity Futures Lab, November 2025) [slides].\nNHM R Unit Testing Workshop (Natural History Museum R Group, May 2025) [slides].\nStatistical Finite Element Methods from my past academic life (e.g. SIAM UQ 2024, Warwick Algorithms 2024, February 2024, ICIAM 2023, IMSI 2022, etc). See below for a talk from the DARE ARC Centre of Excellence."
   },
   {
-    "objectID": "blog/first-post.html",
-    "href": "blog/first-post.html",
-    "title": "Starting Up",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "Hi! This is planned to build up an archive of different things that I find interest related to programming, software development, and computational sciences.\nI plan to post things that I find generally interesting in relation to stuff that I’ve worked on in the past, or things that I’ve more recently done, or more general thoughts on the interface of science and software development."
+    "text": "Starting Up\n\n\n\nGeneral\n\n\n\n\n\n\n\n\n\nMar 9, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "software.html",
@@ -54,54 +110,5 @@
     "title": "software",
     "section": "Personal projects",
     "text": "Personal projects\n\ndotfiles for *nix systems that I use day-to-day. I use yadm to manage these files across all the systems I use (e.g., work laptop, HPC). Includes configurations for zsh, tmux, neovim, and more.\nuLinalg: a C++ library to handle 2D array operations, including broadcasting, LU decompositions, and Cholesky decompositions. A bit like a mini version of numpy.\npspectral: a C++ library to compute pseudospectral solutions to differential equations, such as Navier-Stokes, using Fourier transforms (FFTW).\npunter: a C++ implementation of the Shunting-Yard to parse mathematical expressions from infix to postfix notation."
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "cv",
-    "section": "",
-    "text": "I’m an experienced Research/HPC Engineer with a background in mathematical modelling and applied statistics.\nI work at the Natural History Museum as a research engineer in the Biodiversity Futures Lab on the Biodiversity Intactness Index (BII). I lead the software engineering behind the BII, which involves developing and publishing R packages, lots of refactoring and optimisation (!), and a lot of HPC work to build a reproducible data pipeline to generate global biodiversity data.\nI completed a PhD in applied maths at the University of Western Australia in 2022, and was a postdoc at the University of Cambridge from 2021-2024. I worked in-between scientific machine learning and applied mathematics, developing numerical methods to assimilate observations into physical models.\nMy undergrad degree was in Mathematics and Statistics, which I also completed at the University of Western Australia in 2018. In my honours thesis I worked on modelling daily rainfall across Australia using mixture models."
-  },
-  {
-    "objectID": "cv.html#experience",
-    "href": "cv.html#experience",
-    "title": "cv",
-    "section": "Experience",
-    "text": "Experience\n\n(2026-Present) Senior Research Software Engineer, Natural History Museum, London.\n(2024-2026) Research Software Engineer Natural History Museum, London.\n(2021-2024) Postdoctoral Research Associate, University of Cambridge.\n(2018-2020) Teaching Assistant, University of Western Australia."
-  },
-  {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "cv",
-    "section": "Education",
-    "text": "Education\n\n(2019-2022) PhD, Department of Mathematics and Statistics, University of Western Australia.\n(2015-2018) BSc (Honours), Mathematics and Statistics, University of Western Australia."
-  },
-  {
-    "objectID": "cv.html#skills",
-    "href": "cv.html#skills",
-    "title": "cv",
-    "section": "Skills",
-    "text": "Skills\nLanguages: R, Python, C++, CMake.\nFrameworks/libraries:\n\n(R): lme4, sf, terra, ggplot2, targets, Stan/brms, testthat.\n(Python): numpy, Scipy, JAX, matplotlib, mpi4py, pytest.\n(C++): FEniCS, FFTW, Eigen, catch2.\n\nTools: Git, Docker, AWS (EC2/S3), HPC (slurm, MPI)."
-  },
-  {
-    "objectID": "cv.html#selected-software",
-    "href": "cv.html#selected-software",
-    "title": "cv",
-    "section": "Selected Software",
-    "text": "Selected Software\n\npredictsr: an R package to load the PREDICTS database into R dataframes and cache them to disk. Published on CRAN.\nssmooth: an R package for smoothing spatial data using statistical methods. Published on CRAN."
-  },
-  {
-    "objectID": "cv.html#publications",
-    "href": "cv.html#publications",
-    "title": "cv",
-    "section": "Publications",
-    "text": "Publications\n\nThe statistical finite element method: A theoretical foundation for digital twins\nDuffin, Connor; Glyn-Davies, Alex; Vadeboncoeur, Arnaud; Girolami, Mark.\nQuality Engineering 38(1), 112–121 (2026).\nStatistical finite elements via interacting particle Langevin dynamics\nGlyn-Davies, Alex; Duffin, Connor; Kazlauskaite, Ieva; Girolami, Mark; Akyildiz, Ö Deniz.\nSIAM/ASA Journal on Uncertainty Quantification 13(3), 1200–1227 (2025).\nProbabilistic Super-Resolution for High-Fidelity Physical System Simulations with Uncertainty Quantification\nZhang, Pengyu; Duffin, Connor; Glyn-Davies, Alex; Vadeboncoeur, Arnaud; Girolami, Mark.\narXiv preprint arXiv:2502.10280 (2025).\nΦ-DVAE: Physics-informed dynamical variational autoencoders for unstructured data assimilation\nGlyn-Davies, Alex; Duffin, Connor; Akyildiz, O Deniz; Girolami, Mark.\nJournal of Computational Physics 515, 113293 (2024).\nLow-rank statistical finite elements for scalable model-data synthesis\nDuffin, Connor; Cripps, Edward; Stemler, Thomas; Girolami, Mark.\nJournal of Computational Physics 463, 111261 (2022).\nStatistical finite elements via Langevin dynamics\nAkyildiz, Ömer Deniz; Duffin, Connor; Sabanis, Sotirios; Girolami, Mark.\nSIAM/ASA Journal on Uncertainty Quantification 10(4), 1560–1585 (2022).\nStatistical finite elements for misspecified models\nDuffin, Connor; Cripps, Edward; Stemler, Thomas; Girolami, Mark.\nProceedings of the National Academy of Sciences 118(2), e2015006118 (2021).\n\n\nPreprints\n\nGlobal indicator data tracking changes in species-level biodiversity persistence, ecosystem resilience under climate change, and protected-area representativeness and connectedness\nWare, Chris; Valavi, Roozbeh; Vickers, Mat; Giljohann, Kathryn M; Mokany, Karel; Purvis, Andy; Walkden, Patrick A; De Palma, Adriana; Duffin, Connor; Contu, Sara; et al.\nEcoEvoRxiv (2026).\nExploring Model Misspecification in Statistical Finite Elements via Shallow Water Equations\nDuffin, Connor; Branson, Paul; Rayson, Matt; Girolami, Mark; Cripps, Edward; Stemler, Thomas.\narXiv preprint arXiv:2307.05334 (2023).\n\n\n\nPhD Thesis\n\nStatistical finite element methods for nonlinear PDEs\nDuffin, Connor.\nManuscript (2022)."
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Starting Up\n\n\n\nGeneral\n\n\n\n\n\n\n\n\n\nMar 9, 2026\n\n\n\n\n\nNo matching items"
   }
 ]
