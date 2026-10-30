@@ -8,6 +8,8 @@ I have a PhD in statistics from [the University of Western Australia](https://ww
 
 ## Statistical modelling
 
+- - **Hierarchical models for large observational datasets.** Lead the mixed-effects modelling behind the BII: over 4 million observations from more than 35,000 sites across many independent studies, projected globally with uncertainty.  
+  [predictsr](https://github.com/Biodiversity-Futures-Lab/predictsr) · [ssmooth](https://github.com/Biodiversity-Futures-Lab/ssmooth)
 - **Inference under model misspecification.** Developed the statistical finite element method, a Bayesian framework that embeds a Gaussian process discrepancy term in a mechanistic model so that inference stays honest when the model is wrong.  
   *PNAS*, 2021 · [paper](https://doi.org/10.1073/pnas.2015006118)
 - **Scalable Bayesian computation.** Built low-rank approximations and Langevin-based sampling schemes that make posterior inference tractable for high-dimensional models.  
