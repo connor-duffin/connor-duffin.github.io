@@ -4,28 +4,28 @@
     "href": "cv.html",
     "title": "cv",
     "section": "",
-    "text": "Statistician with experience building interpretable models for complex observational data, and the software to fit them at scale. I currently lead the modelling and engineering behind the Biodiversity Intactness Index (BII) in the Biodiversity Futures Lab at the Natural History Museum, London.\nI have a PhD in statistics from the University of Western Australia and was a postdoc at the University of Cambridge, where I developed Bayesian methods for combining mechanistic models with data when those models are known to be wrong."
+    "text": "Statistician with experience building interpretable models for complex observational data, and software to fit them at scale. I currently lead the technical development of the Biodiversity Intactness Index (BII) in the Biodiversity Futures Lab at the Natural History Museum, London.\nI have a PhD in statistics from the University of Western Australia and was a postdoc at the University of Cambridge, where I developed Bayesian methods for combining mechanistic models with data when those models are known to be wrong."
   },
   {
     "objectID": "cv.html#statistical-modelling",
     "href": "cv.html#statistical-modelling",
     "title": "cv",
     "section": "Statistical modelling",
-    "text": "Statistical modelling\n\nHierarchical models for large observational datasets. Lead the mixed-effects modelling behind the BII: over 4 million observations from more than 35,000 sites across many independent studies, projected globally with uncertainty.\npredictsr · ssmooth\nInference under model misspecification. Developed the statistical finite element method, a Bayesian framework that embeds a Gaussian process discrepancy term in a mechanistic model so that inference stays honest when the model is wrong.\nPNAS, 2021 · paper\nScalable Bayesian computation. Built low-rank approximations and Langevin-based sampling schemes that make posterior inference tractable for high-dimensional models.\nJ. Comput. Phys., 2022 · paper · SIAM/ASA JUQ, 2022 · paper\nLearning from unstructured data. Co-developed physics-informed variational autoencoders that link raw, unstructured observations to interpretable latent dynamics.\nJ. Comput. Phys., 2024 · paper"
+    "text": "Statistical modelling\n\nHierarchical models for large observational datasets. Mixed-effects modelling behind the BII: over 4 million observations from more than 35,000 sites across many independent studies, projected globally.\npredictsr · ssmooth\nInference under model misspecification. Developed the statistical finite element method, a Bayesian framework that embeds a Gaussian process discrepancy term in a mechanistic model to make up for the model being wrong.\nPNAS, 2021 · paper\nScalable Bayesian computation. Built low-rank approximations and Langevin-based sampling schemes that make posterior inference tractable for high-dimensional models.\nJ. Comput. Phys., 2022 · paper · SIAM/ASA JUQ, 2022 · paper\nLearning from unstructured data. Co-developed physics-informed variational autoencoders that link raw, unstructured observations to interpretable latent dynamics.\nJ. Comput. Phys., 2024 · paper"
   },
   {
     "objectID": "cv.html#experience",
     "href": "cv.html#experience",
     "title": "cv",
     "section": "Experience",
-    "text": "Experience\n\nSenior Research Software Engineer — Natural History Museum, London (2026–present)\n\nLead the statistical modelling and technical development of the BII, a global biodiversity indicator built on mixed-effects models from over 4 million observations, from over 35 thousand sites from the PREDICTS database.\nOwn the model specification, validation, and uncertainty propagation from site-level data to global projections.\nMaintain the BII’s R packages and HPC/AWS deployment, and work with ecologists to turn research questions into models.\n\nResearch Software Engineer — Natural History Museum, London (2024–2026)\n\nRefactored the BII pipeline into tested R packages and deployed it on HPC.\nScaled projections from 10 km to 1 km resolution.\nPublished two CRAN packages (predictsr, ssmooth) and added CI, testing, documentation, and QA.\n\nPostdoctoral Research Associate — University of Cambridge (2021–2024)\n\nRecruited to Mark Girolami’s group in the final year of my PhD; completed the thesis alongside the first year of the postdoc.\nDeveloped Bayesian inference methods (MCMC, Langevin dynamics, filtering) for complex physical models, with a focus on model misspecification and uncertainty quantification.\nPublished in PNAS, SIAM/ASA JUQ, and the Journal of Computational Physics.\n\nTeaching Assistant — University of Western Australia (2018–2020)\n\nTaught undergraduate and master’s statistics courses through tutorials, assessment setting, and exam marking."
+    "text": "Experience\n\nSenior Research Software Engineer — Natural History Museum, London (2026–present)\n\nLead the statistical modelling/technical development of the BII, a global biodiversity indicator built on mixed-effects models from over 4 million observations, from over 35 thousand sites from the PREDICTS database.\nModel specification and validation from site-level data to global projections.\nMaintain the BII’s R packages and HPC/AWS deployment, and work with ecologists to deploy research.\n\nResearch Software Engineer — Natural History Museum, London (2024–2026)\n\nRefactored the BII pipeline into tested R packages and deployed it on HPC.\nScaled projections from 10 km to 1 km resolution.\nPublished two CRAN packages (predictsr, ssmooth) and added CI, testing, documentation, and QA.\n\nPostdoctoral Research Associate — University of Cambridge (2021–2024)\n\nJoined Mark Girolami’s group in the final year of my PhD; completed the thesis alongside the first year of the postdoc.\nDeveloped Bayesian inference methods (MCMC, Langevin dynamics, filtering) for complex physical models, with a focus on model misspecification and uncertainty quantification.\nPublished in PNAS, SIAM/ASA JUQ, and the Journal of Computational Physics.\n\nTeaching Assistant — University of Western Australia (2018–2020)\n\nTaught undergraduate and master’s statistics courses through tutorials, assessment setting, and exam marking."
   },
   {
     "objectID": "cv.html#education",
     "href": "cv.html#education",
     "title": "cv",
     "section": "Education",
-    "text": "Education\n\nPhD in Statistics, Department of Mathematics and Statistics, University of Western Australia (2019–2022).\n\nThesis: Statistical finite element methods for nonlinear PDEs.\n\nBSc (Honours), Mathematics and Statistics, University of Western Australia (2015–2018).\n\nHonours thesis: modelling daily rainfall across Australia with mixture models."
+    "text": "Education\n\nPhD in Statistics, Department of Mathematics and Statistics, University of Western Australia (2019–2022).\n\nThesis: Statistical finite element methods for nonlinear PDEs. Supervised by Edward Cripps and Thomas Stemler.\n\nBSc (Honours), Mathematics and Statistics, University of Western Australia (2015–2018).\n\nHonours thesis: Modelling Australian daily rainfall with Bayesian Mixture Models. Supervised by Edward Cripps."
   },
   {
     "objectID": "cv.html#skills",
@@ -60,7 +60,7 @@
     "href": "index.html",
     "title": "Connor Duffin",
     "section": "",
-    "text": "I’m a statistician who builds interpretable models for messy observational data, along with the software to run them reliably at scale.\nAt the Natural History Museum in London, I lead the modelling and engineering behind the Biodiversity Intactness Index. This involves hierarchical mixed-effects models fitted to heterogeneous data pooled from many independent field studies, then projected globally.\nBefore that, I did a PhD in statistics at the University of Western Australia and a postdoc at the University of Cambridge, developing Bayesian methods for combining mechanistic models with data when those models are known to be wrong (PNAS, 2021)."
+    "text": "I’m a statistician who builds software and models for observational data, currently in the context of global biodiversity modelling.\nAt the Natural History Museum in London, I work on the modelling and engineering behind the Biodiversity Intactness Index. This involves hierarchical mixed-effects models fitted to heterogeneous data pooled from many independent field studies, then projected globally.\nBefore that, I did a PhD in statistics at the University of Western Australia and a postdoc at the University of Cambridge, developing Bayesian methods for combining mechanistic models with data when those models are known to be wrong (PNAS, 2021)."
   },
   {
     "objectID": "talks.html",
@@ -74,7 +74,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Starting Up\n\n\n\nGeneral\n\n\n\n\n\n\n\n\n\nMar 9, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Starting Up\n\n\n\nGeneral\n\n\n\n\n\n\n\n\n\n\n\nMar 9, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "software.html",
