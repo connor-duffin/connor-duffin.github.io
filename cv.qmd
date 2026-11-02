@@ -2,15 +2,15 @@
 title: "cv"
 ---
 
-Statistician with experience building interpretable models for complex observational data, and the software to fit them at scale. I currently lead the modelling and engineering behind the [Biodiversity Intactness Index (BII)](https://www.nhm.ac.uk/our-science/services/data/biodiversity-intactness-index.html) in the [Biodiversity Futures Lab](https://www.nhm.ac.uk/our-science/research/projects/predicts.html) at the [Natural History Museum](https://www.nhm.ac.uk), London.
+Statistician with experience building interpretable models for complex observational data, and software to fit them at scale. I currently lead the technical development of the [Biodiversity Intactness Index (BII)](https://www.nhm.ac.uk/our-science/services/data/biodiversity-intactness-index.html) in the [Biodiversity Futures Lab](https://www.nhm.ac.uk/our-science/research/projects/predicts.html) at the [Natural History Museum](https://www.nhm.ac.uk), London.
 
 I have a PhD in statistics from [the University of Western Australia](https://www.uwa.edu.au/) and was a postdoc at [the University of Cambridge](https://www.cam.ac.uk/), where I developed Bayesian methods for combining mechanistic models with data when those models are known to be wrong.
 
 ## Statistical modelling
 
-- **Hierarchical models for large observational datasets.** Lead the mixed-effects modelling behind the BII: over 4 million observations from more than 35,000 sites across many independent studies, projected globally with uncertainty.  
+- **Hierarchical models for large observational datasets.** Mixed-effects modelling behind the BII: over 4 million observations from more than 35,000 sites across many independent studies, projected globally.  
   [predictsr](https://github.com/Biodiversity-Futures-Lab/predictsr) · [ssmooth](https://github.com/Biodiversity-Futures-Lab/ssmooth)
-- **Inference under model misspecification.** Developed the statistical finite element method, a Bayesian framework that embeds a Gaussian process discrepancy term in a mechanistic model so that inference stays honest when the model is wrong.  
+- **Inference under model misspecification.** Developed the statistical finite element method, a Bayesian framework that embeds a Gaussian process discrepancy term in a mechanistic model to make up for the model being wrong.  
   *PNAS*, 2021 · [paper](https://doi.org/10.1073/pnas.2015006118)
 - **Scalable Bayesian computation.** Built low-rank approximations and Langevin-based sampling schemes that make posterior inference tractable for high-dimensional models.  
   *J. Comput. Phys.*, 2022 · [paper](https://doi.org/10.1016/j.jcp.2022.111261) · *SIAM/ASA JUQ*, 2022 · [paper](https://doi.org/10.1137/21M1463094)
@@ -20,15 +20,15 @@ I have a PhD in statistics from [the University of Western Australia](https://ww
 ## Experience
 
 - **Senior Research Software Engineer** — Natural History Museum, London *(2026–present)*
-  * Lead the statistical modelling and technical development of the BII, a global biodiversity indicator built on mixed-effects models from over 4 million observations, from over 35 thousand sites from the PREDICTS database.
-  * Own the model specification, validation, and uncertainty propagation from site-level data to global projections.
-  * Maintain the BII's R packages and HPC/AWS deployment, and work with ecologists to turn research questions into models.
+  * Lead the statistical modelling/technical development of the BII, a global biodiversity indicator built on mixed-effects models from over 4 million observations, from over 35 thousand sites from the PREDICTS database.
+  * Model specification and validation from site-level data to global projections.
+  * Maintain the BII's R packages and HPC/AWS deployment, and work with ecologists to deploy research.
 - **Research Software Engineer** — Natural History Museum, London *(2024–2026)*
   * Refactored the BII pipeline into tested R packages and deployed it on HPC.
   * Scaled projections from 10 km to 1 km resolution.
   * Published two CRAN packages (`predictsr`, `ssmooth`) and added CI, testing, documentation, and QA.
 - **Postdoctoral Research Associate** — University of Cambridge *(2021–2024)*
-  * Recruited to Mark Girolami's group in the final year of my PhD; completed the thesis alongside the first year of the postdoc.
+  * Joined [Mark Girolami's](https://scholar.google.co.uk/citations?user=BSoawXwAAAAJ&hl=en) group in the final year of my PhD; completed the thesis alongside the first year of the postdoc.
   * Developed Bayesian inference methods (MCMC, Langevin dynamics, filtering) for complex physical models, with a focus on model misspecification and uncertainty quantification.
   * Published in *PNAS*, *SIAM/ASA JUQ*, and the *Journal of Computational Physics*.
 - **Teaching Assistant** — University of Western Australia *(2018–2020)*
@@ -37,9 +37,9 @@ I have a PhD in statistics from [the University of Western Australia](https://ww
 ## Education
 
 - **PhD in Statistics**, Department of Mathematics and Statistics, University of Western Australia *(2019–2022)*.
-  * Thesis: *Statistical finite element methods for nonlinear PDEs*.
+  * Thesis: *Statistical finite element methods for nonlinear PDEs*. Supervised by [Edward Cripps](https://research-repository.uwa.edu.au/en/persons/edward-cripps/) and [Thomas Stemler](https://research-repository.uwa.edu.au/en/persons/thomas-stemler/).
 - **BSc (Honours)**, Mathematics and Statistics, University of Western Australia *(2015–2018)*.
-  * Honours thesis: modelling daily rainfall across Australia with [mixture models](https://en.wikipedia.org/wiki/Mixture_model).
+  * Honours thesis: Modelling Australian daily rainfall with Bayesian Mixture Models. Supervised by [Edward Cripps](https://research-repository.uwa.edu.au/en/persons/edward-cripps/).
 
 ## Skills
 
